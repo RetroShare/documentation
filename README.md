@@ -1,6 +1,8 @@
 # RetroShare Documentation
 
-For full documentation visit [RetroShare Documentation](https://retroshare.readthedocs.io/).
+The full documentation is available at [RetroShare Documentation](https://retroshare.readthedocs.io/).
+
+[![Documentation Status](https://readthedocs.org/projects/retroshare/badge/?version=latest)](http://retroshare.readthedocs.io/en/latest/?badge=latest)
 
 ---
 
