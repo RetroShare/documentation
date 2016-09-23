@@ -7,17 +7,15 @@ repo_url: https://github.com/retroshare/documentation.git
 
 pages:
 - Home: index.md
-#- User Guide:
-#    - Installation: user-guide/Installation.md
-#    - First Steps: user-guide/first-steps.md
-#    - Connect to Friends: user-guide/styling-your-docs.md
-#    - Chat: user-guide/chat.md
-#    - Share Files: user-guide/share-files.md
-#- Compilation: compilation.md
-#- About:
-#    - Release Notes: about/release-notes.md
-#    - Contributing: about/contributing.md
-- License: about/about.md
-
+- User Guide: 
+    - Installation: user-guide/installation.md
+    - First Steps: user-guide/first-steps.md
+- Settings:
+    - General: settings/general.md
+    - Network: settings/network.md    
+- About: 
+    - About: about/about.md
+    - License: about/license.md
+    - Contributing: about/contributing.md
 
 theme: readthedocs
