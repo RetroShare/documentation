@@ -26,11 +26,19 @@ Retroshare creates encrypted connections to your friends. Nobody can spy on you.
 - Extensible through plugins
 
 ##Features
-- **Chat** - Send text and images. Discuss with various people in chat rooms. Express your emotions with the rich smiley set. Use distant chat to securely chat with friends-of-friends.
-- **Voice and Video** - Make free and secure calls with the VoIP plugin. Catch up face to face with a video call.
-- **Mail** - Send encrypted messages to other members of the network. Retroshare can store encrypted messages on friends nodes to deliver messages while you're offline.
-- **File sharing** - Share files with your friends or with the whole network. Use the search to find files. Retroshare uses swarming similar to BitTorrent, to accelerate the download. This makes it possible to share big files with 1GB or more. Your privacy is protected with anonymous tunnels. Only your direct friends might learn which files you download.
-- **Forums** - ou can read and write forum posts offline. This is perfect while you're on the go. When you have an Internet connection, Retroshare will automatically sync forums with your friends. Decentralized forums are censorship resistant by design.
-- **Posted** - Share your favorite links. See which links others like. Vote and discuss links.
-- **Channels** - Publish files in channels. Subscribe to channels and automatically download the latest files. Comment on files and spread them to your friends.
-- **Protect your IP with Tor/I2P** - Need to hide from Internet surveillance? Can't connect to your friends because of censorship? Need to bypass nasty firewalls? Use Retroshare over Tor to hide the connection between you and your friends.
+- Chat  
+Send text and images. Discuss with various people in chat rooms. Express your emotions with the rich smiley set. Use distant chat to securely chat with friends-of-friends.
+- Voice and Video  
+Make free and secure calls with the VoIP plugin. Catch up face to face with a video call.
+- Mail  
+Send encrypted messages to other members of the network. Retroshare can store encrypted messages on friends nodes to deliver messages while you're offline.
+- File sharing  
+Share files with your friends or with the whole network. Use the search to find files. Retroshare uses swarming similar to BitTorrent, to accelerate the download. This makes it possible to share big files with 1GB or more. Your privacy is protected with anonymous tunnels. Only your direct friends might learn which files you download.
+- Forums  
+you can read and write forum posts offline. This is perfect while you're on the go. When you have an Internet connection, Retroshare will automatically sync forums with your friends. Decentralized forums are censorship resistant by design.
+- Posted  
+Share your favorite links. See which links others like. Vote and discuss links.
+- Channels  
+Publish files in channels. Subscribe to channels and automatically download the latest files. Comment on files and spread them to your friends.
+- Protect your IP with Tor/I2P  
+Need to hide from Internet surveillance? Can't connect to your friends because of censorship? Need to bypass nasty firewalls? Use Retroshare over Tor to hide the connection between you and your friends.
