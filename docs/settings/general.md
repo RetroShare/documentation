@@ -1,7 +1,8 @@
 #General
 
 ##Startup
- - Start minimized
+ - Start minimized  
+
  
 ##For Advanced Users
  - Enable Advanced Mode (Restart required)
