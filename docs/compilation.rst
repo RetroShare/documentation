@@ -1,5 +1,0 @@
-===========
-Compilation
-===========
-
-RetroShare is compiled ... 

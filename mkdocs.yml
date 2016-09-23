@@ -1,0 +1,23 @@
+site_name: RetroShare
+site_url: https://cave-rs-docu.readthedocs.io
+site_description: RetroShare User Guide
+site_author: RetroShare Community
+
+repo_url: https://github.com/cavebeat/documentation.git
+
+pages:
+- Home: index.md
+#- User Guide:
+#    - Installation: user-guide/Installation.md
+#    - First Steps: user-guide/first-steps.md
+#    - Connect to Friends: user-guide/styling-your-docs.md
+#    - Chat: user-guide/chat.md
+#    - Share Files: user-guide/share-files.md
+#- Compilation: compilation.md
+#- About:
+#    - Release Notes: about/release-notes.md
+#    - Contributing: about/contributing.md
+- License: about/about.md
+
+
+theme: readthedocs
