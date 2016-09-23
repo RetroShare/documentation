@@ -3,7 +3,8 @@
 The documentation is available at [RetroShare Documentation](https://retroshare.readthedocs.io/).
 
 [![Documentation Status](https://readthedocs.org/projects/retroshare/badge/?version=latest)](http://retroshare.readthedocs.io/en/latest/?badge=latest) 
-Download it as PDF [PDF](https://readthedocs.org/projects/retroshare/downloads/pdf/latest/)
+
+Download as [PDF](https://readthedocs.org/projects/retroshare/downloads/pdf/latest/)
 
 ---
 
