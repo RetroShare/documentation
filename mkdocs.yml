@@ -1,9 +1,9 @@
 site_name: RetroShare
-site_url: https://cave-rs-docu.readthedocs.io
+site_url: https://retroshare.readthedocs.io
 site_description: RetroShare User Guide
 site_author: RetroShare Community
 
-repo_url: https://github.com/cavebeat/documentation.git
+repo_url: https://github.com/retroshare/documentation.git
 
 pages:
 - Home: index.md
