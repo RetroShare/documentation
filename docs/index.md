@@ -1,18 +1,15 @@
-.. Read the Docs Template documentation master file, created by
-   sphinx-quickstart on Tue Aug 26 14:19:49 2014.
+# RetroShare Documentation
 
+---
 
-Welcome the RetroShare documentation
-====================================
+## Installation
 
-.. image:: ../images/retroshare-symbol.png 
-    :width: 100
+MkDocs is a **fast**, **simple** and **downright gorgeous** static site
+generator that's geared towards building project documentation. Documentation
+source files are written in Markdown, and configured with a single YAML
+configuration file.
 
-.. toctree::
-     :maxdepth: 2
+### Compilation
 
-     installation
-     compilation
-     settings
-     about
-
+MkDocs builds completely static HTML sites that you can host on GitHub pages,
+Amazon S3, or [anywhere][deploy] else you choose.

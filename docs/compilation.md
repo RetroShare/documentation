@@ -1,21 +1,18 @@
-===========
-Compilation
-===========
 
 Compilation on Linux
 ----------------------------
 
 1. Install package dependencies:
-* Debian/Ubuntu
-
-.. code-block:: console
-    sudo apt-get install libglib2.0-dev libupnp-dev qt4-dev-tools \
+   * Debian/Ubuntu
+   ```bash
+   sudo apt-get install libglib2.0-dev libupnp-dev qt4-dev-tools \
        libqt4-dev libssl-dev libxss-dev libgnome-keyring-dev libbz2-dev \
        libqt4-opengl-dev libqtmultimediakit1 qtmobility-dev libsqlcipher-dev \
        libspeex-dev libspeexdsp-dev libxslt1-dev libcurl4-openssl-dev \
        libopencv-dev tcl8.5 libmicrohttpd-dev
-       
-* openSUSE
+   ```
+   * openSUSE
+   ```bash
    sudo zypper install gcc-c++ libqt4-devel libgnome-keyring-devel \
        glib2-devel speex-devel libssh-devel protobuf-devel libcurl-devel \
        libxml2-devel libxslt-devel sqlcipher-devel libmicrohttpd-devel \
@@ -50,4 +47,3 @@ Compilation on Linux
 
          /usr/bin/RetroShare06
          /usr/bin/RetroShare06-nogui
-
