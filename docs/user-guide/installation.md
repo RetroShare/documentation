@@ -50,5 +50,5 @@ Install stable release via: [Yast oneclick]()
 
 Link: [13.2](http://software.opensuse.org/ymp/home:AsamK:RetroShare/openSUSE_13.2/retroshare06.ymp)    [13.1](http://software.opensuse.org/ymp/home:AsamK:RetroShare/openSUSE_13.1/retroshare06.ymp)    [Factory](http://software.opensuse.org/ymp/home:AsamK:RetroShare/openSUSE_Factory/retroshare06.ymp)
 
-Download binary or add Repository manually:
+Download binary or add Repository manually:  
 [Stable release](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06)    [Nightly snapshot](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06-git)
