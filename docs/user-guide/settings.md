@@ -218,7 +218,6 @@ Changes to language will only take effect after restarting RetroShare!
 
 Note: these settings do not affect retroshare-nogui has a command line switch to activate the webinterface
 
-###FeedReader
+##FeedReader
 ![feedreader settings logo](../img/settings/feedreader.png "FeedReader Settings")  
-
 ###Network Configuration

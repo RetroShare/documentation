@@ -11,11 +11,7 @@ pages:
     - Installation: user-guide/installation.md
     - First Steps: user-guide/first-steps.md
     - Settings: user-guide/settings.md
-- Interface:    
-    - News Feed: interface/news-feed.md
-    - Network: interface/network.md
-    - People: interface/people.md
-    - File Sharing: interface/file-sharing.md
+    - Interface: user-guide/interface.md
 - About: 
     - About: about/about.md
     - License: about/license.md
