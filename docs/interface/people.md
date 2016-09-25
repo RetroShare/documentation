@@ -1,3 +1,0 @@
-#People
-
-Lorem Ipsum
