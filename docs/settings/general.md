@@ -1,8 +1,10 @@
 #General
 
+![general settings logo](../img/settings/general.png "General Settings")  
+
+
 ##Startup
  - Start minimized  
-
  
 ##For Advanced Users
  - Enable Advanced Mode (Restart required)
@@ -15,3 +17,5 @@
  
 ##Idle
  - Idle Time (default 300s)
+
+
