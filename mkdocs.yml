@@ -12,6 +12,8 @@ pages:
     - First Steps: user-guide/first-steps.md
     - Settings: user-guide/settings.md
     - Interface: user-guide/interface.md
+- Developer Section:
+    - Compilation: developer/compilation.md
 - About: 
     - About: about/about.md
     - License: about/license.md
