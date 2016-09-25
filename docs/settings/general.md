@@ -1,6 +1,6 @@
 #General
 
-![rel path](../img/settings/general.png "logo rel path")  
+![general settings logo](../img/settings/general.png "General Settings")  
 
 
 ##Startup
@@ -17,3 +17,5 @@
  
 ##Idle
  - Idle Time (default 300s)
+
+
