@@ -10,35 +10,16 @@ pages:
 - User Guide: 
     - Installation: user-guide/installation.md
     - First Steps: user-guide/first-steps.md
+    - Settings: user-guide/settings.md
 - Interface:    
     - News Feed: interface/news-feed.md
     - Network: interface/network.md
     - People: interface/people.md
     - File Sharing: interface/file-sharing.md
-- Settings:
-    - General: settings/general.md
-    - Network: settings/network.md    
-    - File Transfer: settings/file-transfer.md    
-    - Relay: settings/relay.md    
-    - Directories: settings/directories.md    
-    - Plugins: settings/plugins.md    
-    - Notify: settings/notify.md    
-    - Node: settings/node.md    
-    - People: settings/people.md    
-    - Chat: settings/chat.md    
-    - Message: settings/message.md    
-    - Channels: settings/channels.md    
-    - Forum: settings/forum.md    
-    - Posted: settings/posted.md    
-    - Appearance: settings/appearance.md    
-    - Sound: settings/sound.md    
-    - Permissions: settings/permissions.md    
-    - Webinterface: settings/webinterface.md    
-    - FeedReader: settings/feedreader.md    
-
 - About: 
     - About: about/about.md
     - License: about/license.md
     - Contributing: about/contributing.md
 
+copyright: CC-BY-SA 4.0
 theme: readthedocs

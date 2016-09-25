@@ -1,4 +1,4 @@
-#General
+##General
 
 ![general settings logo](../img/settings/general.png "General Settings")  
 
