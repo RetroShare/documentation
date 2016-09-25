@@ -1,8 +1,10 @@
 #General
 
+![rel path](../img/settings/general.png "logo rel path")  
+
+
 ##Startup
  - Start minimized  
-
  
 ##For Advanced Users
  - Enable Advanced Mode (Restart required)
