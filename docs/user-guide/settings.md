@@ -4,15 +4,42 @@
 ![general settings logo](../img/settings/general.png "General Settings")  
 ###Startup
  - Start minimized  
+Starts RetroShare directly to the Systray into the background.  
 ###For Advanced Users
- - Enable Advanced Mode (Restart required)
+ - Enable Advanced Mode (Restart required)  
+Enables Advanced Settings which are hidden by default. 
 ###Misc
- - Do not show the Quit RetroShare Messagebox
- - Minimize to Tray Icon
- - Auto Login
- - Use Local Server to get new arguments
+ - Do not show the Quit RetroShare Messagebox  
+![really quit interface](../img/interface/really_quit.png "Really Quit") 
+ - Minimize to Tray Icon  
+ - Auto Login  
+When RetroShare is started the next time, it bypassed the question to select the User. And just starts with the actually used one.  
+ - Use Local Server to get new arguments  
+This enables to open RetroShare links from external programs, for example if you click on a link in your Browser (e.g. Firefox ). 
 ###Idle
- - Idle Time (default 300s)
+ - Idle Time (default 300s)  
+The Status switches to "away" after not using the computer for 5 minutes.  
+![status](../img/interface/status.png "Status")  
+
+###Launch Startup Wizard
+![launch wizard](../img/settings/launch_wizard.png "Launch Wizard")  
+This QuickStart wizard can help you to configure your RetroShare in a few simple steps.  
+If you are a more advanced user, you can access the full range of RetroShare Settings via the ToolBar.  
+
+![quick start wizard](../img/settings/quick_start_wizard_1.png "Quick Start Wizard")  
+This wizard will assist you to:  
+ - Tell RetroShare about your internet connection  
+ - Choose which files you share  
+ - Get started using RetroShare  
+
+![quick start wizard](../img/settings/quick_start_wizard_2.png "Quick Start Wizard")  
+For best performance, RetroShare needs to know a little about your connection to the internet.  
+For detailed explanation of network settings click [here](settings/#network). 
+
+![quick start wizard](../img/settings/quick_start_wizard_3.png "Quick Start Wizard")  
+This is a list of shared folders. You can add and remove folders using the button on the left. When you add a new folder, initially all files in that folders shared.  
+You can separately setup share flags for each shared directory: 
+For detailed explanation of shared directories click [here](settings/#directories). 
 
 ##Network
 ![network settings logo](../img/settings/network.png "Network Settings")  
