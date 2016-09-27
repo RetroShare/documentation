@@ -13,17 +13,6 @@ Retroshare creates encrypted connections to your friends. Nobody can spy on you.
 - Independence from corporate systems and centralized servers. Central services might shut down or change their terms of services at any time. Do you remember Myspace? Or German Studivz? Remember when Facebook changed their terms of service? Skype being bought by Microsoft?
 - Free software. Only free software can provide free and secure communication. Developers can read Retroshare's source code and verify the security.
 
-##Technical Specifications
-- Network topology: decentralized Friend to Friend network (F2F)
-- Transport: IPv4 TCP+UDP, Tor
-- UPnP / NAT-PMP port forwarding support
-- Distributed hash table to locate friends
-- Optionally can use dynamic DNS
-- Connect to friends behind NAT with UDP
-- Transport encryption with TLS (OpenSSL)
-- Authentication with PGP keys
-- Services: chat, VoIP with video, multi-user chat, file search/file sharing, forums, link sharing, Retroshare mail
-- Extensible through plugins
 
 ##Features
 - Chat  
@@ -42,3 +31,16 @@ Share your favorite links. See which links others like. Vote and discuss links.
 Publish files in channels. Subscribe to channels and automatically download the latest files. Comment on files and spread them to your friends.
 - Protect your IP with Tor/I2P  
 Need to hide from Internet surveillance? Can't connect to your friends because of censorship? Need to bypass nasty firewalls? Use Retroshare over Tor to hide the connection between you and your friends.
+
+
+##Technical Specifications
+- Network topology: decentralized Friend to Friend network (F2F)
+- Transport: IPv4 TCP+UDP, Tor
+- UPnP / NAT-PMP port forwarding support
+- Distributed hash table to locate friends
+- Optionally can use dynamic DNS
+- Connect to friends behind NAT with UDP
+- Transport encryption with TLS (OpenSSL)
+- Authentication with PGP keys
+- Services: chat, VoIP with video, multi-user chat, file search/file sharing, forums, link sharing, Retroshare mail
+- Extensible through plugins
