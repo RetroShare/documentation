@@ -5,15 +5,18 @@ RetroShare is generally licensed with the [GPLv2](https://raw.githubusercontent.
 The GNU General Public License guarantees end users the freedom to run, study, share and modify the software.  
 
 However the software does not fall exclusively under one licence.  
- - libretroshare : the core library  
-Is licenced under the [LGPL](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) (Gnu Library General Public Licence)  
+
+  - libretroshare : the core library  
+    Is licenced under the [LGPL](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) (Gnu Library General Public Licence)  
+
 This library also depends on:  
+
  - [miniupnpc](http://miniupnp.free.fr/): [Source](https://github.com/miniupnp/miniupnp) [BSD Licence](https://opensource.org/licenses/BSD-3-Clause)  
- - OpenSSL](https://www.openssl.org/): [OpenSSL Licence](https://www.openssl.org/source/license.txt)  
- - GPGme: [LGPL](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html) (Gnu Library General Public Licence)  
+ - [OpenSSL](https://www.openssl.org/): [OpenSSL Licence](https://www.openssl.org/source/license.txt)  
+ - [GPGme](https://www.gnupg.org/(es)/related_software/gpgme/index.html): [LGPLv2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)  
  - KadC : GPL  
 
-The GUI is built on top of Trolltech's Qt Libraries.  
+The GUI is built on top of Trolltech's Qt Libraries. [Qt License LGPLv3](https://www.qt.io/qt-licensing-terms/)  
 
 ##Retroshare Icons  
 Oxygen Icons Set [LGPL](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)  
