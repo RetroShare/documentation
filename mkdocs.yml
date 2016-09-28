@@ -21,3 +21,12 @@ pages:
 
 copyright: CC-BY-SA 4.0
 theme: readthedocs
+
+extra:
+  author:
+    github: 'RetroShare'
+    twitter: 'RetroShare'
+
+markdown_extensions:
+    - toc:
+permalink: 
