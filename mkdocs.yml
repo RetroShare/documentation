@@ -19,14 +19,9 @@ pages:
     - License: about/license.md
     - Contributing: about/contributing.md
 
-copyright: CC-BY-SA 4.0
+copyright: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>, Maintained by the RetroShare Community
 theme: readthedocs
-
-extra:
-  author:
-    github: 'RetroShare'
-    twitter: 'RetroShare'
 
 markdown_extensions:
     - toc:
-permalink: 
+        permalink: 
