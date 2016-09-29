@@ -244,17 +244,37 @@ You can separately setup share flags for each shared directory in the shared fil
 ###Node Information
 
 ####Public Information
- - Name
- - Location
- - Location ID
- - PGP Id
- - PGP fingerprint
+ - Name  
+   The Username which you have choosen at creation time of your RetroShare Account
+ - Location  
+   Each user can have several Location were RetroShare is running. Each device could be having it's 
+   own location. For example: Linux Laptop, Windows Gaming PC, Home-Server, Raspberry Pi, Mac, ... and 
+   all of these locations can be interconnected and belong to a single user.  
+ - Location ID  
+   This is the SSLID of the Certificate from the Location
+ - PGP Id  
+   The Name/Userid is chained to a [PGP]() certificate. 
+ - PGP fingerprint  
+   Each PGP Certificate has it's own Fingerprint.  
+   A PGP Fingerprint is structured like this:  
+   AAAA BBBB CCCC DDDD EEEE FFFF GGGG HHHH IIII  
+   The PGP-ID is the last part of the Fingerprint: FFFF GGGG HHHH IIII
  
 ####Other information
- - Friend nodes
- - Software Version
- - Online since
+ - Friend nodes  
+   How many Friend nodes are connected to your node offline + online
+ - Software Version  
+   Version + revision of the Software
+ - Online since  
+   Last time the Location cam online
+   
+####Show Statistics
+![node statistics](../img/settings/statistic/node_show_statistic.png "Node Statistic Show Button")  
   
+  
+![statistics](../img/settings/statistic/statistic.png "Node Statistic")  
+
+
 ###Certificate
 
 ##People
