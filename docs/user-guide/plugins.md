@@ -35,7 +35,7 @@ Under active development, works with 0.6.0 and Qt5, from <https://github.com/cho
 ## Lua4RS
 Allows Lua scripts to run under RetroShare for various administrative tasks.
 
-Under active development, works with 0.6.0 and Qt5, from <https://github.com/sehraf/Lua4RS>.
+Works with 0.6.0 and Qt5, from <https://github.com/sehraf/Lua4RS>.
 
 ## RetroChess
 Play one game of chess against another player.
