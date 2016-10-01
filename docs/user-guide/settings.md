@@ -132,9 +132,10 @@ You can separately setup share flags for each shared directory in the shared fil
  - Maximum simultaneous download  
    How many downloads are allowed at the same time.  
  - Default chunk strategy  
-![chunk strategy](../img/settings/chunk_strategy.png "Chunk Strategy")  
+   ![chunk strategy](../img/settings/chunk_strategy.png "Chunk Strategy")  
+   Also known as ![https://en.wikipedia.org/wiki/Segmented_file_transfer](Segmented file transfer) or swarming. With the following settings the behaviour can be influenced to fit your needs.  
     - **Streaming** causes the transfer to request 1MB file chunks in increasing order, faciliating preview while downloading.
-    - **Random** is purely random and favors swarming behaviour. 
+    - **Random** is purely random and favors swarming behaviour at best. 
     - **Progressive** is a compromise, selecting the next chunk at random within less than 50 MB after the end of the partial file. That allows some randomness while preventing large empty file initialization times.  
 
  - Safety disk space limit  
@@ -147,9 +148,24 @@ You can separately setup share flags for each shared directory in the shared fil
 ##Relay  
 ![relay settings logo](../img/settings/server.png "Relay Settings")  
 
+By activating relays, you allow your RetroShare node to act as a bridge 
+between RetroShare users who cannot connect directly, e.g. because they're 
+firewalled. 
+
+You may choose to act as a relay by checking enable relay connections, or 
+simply benefit from other peers acting as a relay, 
+by checking *use relay servers*, For the former, you may specify the 
+bandwidth allocated when acting as a relay for friends of you, 
+for friends of your friends, or anyone in the RetroShare network. 
+
+In any case, a RetroShare node acting as a relay cannot see the relayed 
+traffic, since it is encrypted and authenticated by the two relayed nodes.  
+
 ###Enable Relay Connections
 ###Use Relay Servers
 ###Relay Options
+
+![relay settings logo](../img/settings/relay/relay.png "Relay Settings") 
 
 ##Directories
 ![directories settings logo](../img/settings/directories.png "Directories Settings")  
@@ -188,29 +204,62 @@ You can separately setup share flags for each shared directory in the shared fil
         - Anonymous Flag ON  
           ![anon flag on](../img/settings/directories/anon_flag_on.png "Anonymous Flag on")  
           All friend nodes can relay anonymous tunnels to this directory. Directory is accessible by anonymous tunnels from any friend. 
- - Example Share  
-   ![Share Manager](../img/settings/directories/share_manager_piratebox.png "Share Manager Piratebox")   
-   This directory is not browsable to groups or friends, but is shared anonymously to anyone who can reach it via anonymous tunnels. 
-   
+        - Example Share  
+          This directory is not browsable to groups or friends, 
+          but it is shared anonymously to anyone who can reach it via anonymous tunnels. 
+          Thats the default way to share files anonymously inside the network and make it reachable to Friends of Friends.  
+          ![Share Manager](../img/settings/directories/share_manager_piratebox.png "Share Manager Piratebox")  
  - Automatically share incomming directory (Recommended)  
- - Auto-check shared directories every  
+   Downloades are shared while downloading. 
+   If the network contains only the initial seeder, 
+   other nodes begin to request pieces via the turtle network/anon download. 
+   RetroShare nodes incorporate mechanisms to optimize their download and upload rates; 
+   for example they download pieces in a random order to increase the opportunity to exchange data, 
+   which is only possible if two peers have different pieces of the file. 
+   ![swarming](../img/settings/directories/swarming.png "Swarming")   
+ - Auto-check shared directories every 10 minutes  
+   Shared directories are checked every 10 minutes for changes. New files are hashed and become available for friends. 
  - Incoming Directory  
+   The downloads directory where finished downloads are put. 
+   It's recommended to share this directory to enable swarming and multi-source download of large files.  
  - Partials Directory  
+   Unfinished Files are stored here until they are finished and get moved into the Incoming Directory. 
  
 
 
 
-###Plugins
-![plugins settings logo](../img/settings/plugins.png "Plugins Settings")  
- - Authorize all plugins
- - Plugins
- - Plugin look-up directories
+##Plugins
+![plugins settings logo](../img/settings/plugins.png "Plugins Settings")
 
+For security reasons, accepted plugins load automatically until the main 
+RetroShare executable or the plugin library changes. In such case, the user needs 
+to confirm them again. After the program is started, you can enable a 
+plugin manually by clicking on the "Enable" button and then restart RetroShare. 
+
+If you want to develop your own plugins, contact the developers team they will 
+be happy to help you out!
+
+ - Authorize all plugins 
+   Check this for developing plugins. They will not be checked for the 
+   hash. However, in normal times, checking the hash protects you from 
+   malicious behaviout of crafted plugins.  
+ - Plugins  
+   ![plugins list](../img/settings/plugins/feedreader_plugin.png "Plugins")  
+ - Plugin look-up directories  
+   Plugins are loaded from the directories listed in the bottom list.  
+   ![plugins directories](../img/settings/plugins/list.png "Plugins List")  
+   
 ##Notify
 ![notify settings logo](../img/settings/notify.png "Notify Settings")  
-###Feed
 
+RetroShare will notify you about what happens in your network. 
+Depending on your usage, you may want to enable or disable some of the 
+notifications. 
+
+###Feed
 ###News Feed  
+Various events can trigger a notification in your news feed.  
+
  - Friend Connect
  - Channels
  - Forums
@@ -219,13 +268,20 @@ You can separately setup share flags for each shared directory in the shared fil
  - Chat
  - Security
  - Ip security
- - Feed Reader
+ - Feed Reader (Plugin)
+
+With the test button, the settings can be tested how they will look like.   
+![feed](../img/settings/notify/feed.png "Feed")  
+
 
 ###Toasters
+Various events can trigger a notification in your news feed.  
 
 - Disable All Toasters  
+  If the Toasters annoy you, you can disable all at once. 
 
 ###Toasters
+Various events can trigger a toaster in your news feed.  
 
  - Friend Connect
  - New Message
@@ -234,16 +290,46 @@ You can separately setup share flags for each shared directory in the shared fil
  - Group Chat
  - Chat Lobby
  - Connect attempt
+ 
+With the test button, the toaster notification can be tested, 
+how it would look like.
+![toaster](../img/settings/notify/toaster.png "Feed")  
+
+The Toaster can be place at each corner of the screen.  
+![toaster position](../img/settings/notify/toaster_position.png "Toaster Position")  
 
 ###Systray
+####Systray Icon
+There are options to show, combine and blink Systray notifications  
+
+ - Private Chat  
+ - Download completed 
+ - Chat lobbies 
+ - Message  
+ - Channel Post  
+ - Forum Post  
+ - Posted  
+ - FeedReader Message(Plugin)
+
+Hovering over the tooltip shows basic information about the notification.  
+![systray](../img/settings/notify/systray_tooltip.png "Chat Systray")  
+Clicking on the systray notification shows more details about the notification.  
+![systray](../img/settings/notify/systray.png "Chat Systray")  
 
 
+####Chat Lobbies  
+ - Count all unread messages  
+ - Count all occurences of my current identity  
+ - Count occurences of any of the followign texts (separate by newlines)  
+ - case sensitive
 
 ##Node
 ![node settings logo](../img/settings/profile.png "Node Settings")  
 ###Node Information
 
 ####Public Information
+![public node info](../img/settings/node/public_information.png "Public Info")
+
  - Name  
    The Username which you have choosen at creation time of your RetroShare Account
  - Location  
@@ -253,14 +339,15 @@ You can separately setup share flags for each shared directory in the shared fil
  - Location ID  
    This is the SSLID of the Certificate from the Location
  - PGP Id  
-   The Name/Userid is chained to a [PGP]() certificate. 
+   The Userid is chained to a [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) certificate.  
+   The PGP-ID is the last part of the Fingerprint: **FFFF GGGG HHHH IIII**
  - PGP fingerprint  
    Each PGP Certificate has it's own Fingerprint.  
-   A PGP Fingerprint is structured like this:  
-   AAAA BBBB CCCC DDDD EEEE FFFF GGGG HHHH IIII  
-   The PGP-ID is the last part of the Fingerprint: FFFF GGGG HHHH IIII
- 
+   PGP Fingerprint are structured like this:  **AAAA BBBB CCCC DDDD EEEE FFFF GGGG HHHH IIII**  
+   
 ####Other information
+![other info](../img/settings/node/other_info.png "Other Info")
+
  - Friend nodes  
    How many Friend nodes are connected to your node offline + online
  - Software Version  
@@ -268,6 +355,19 @@ You can separately setup share flags for each shared directory in the shared fil
  - Online since  
    Last time the Location cam online
    
+###Certificate
+![certificate](../img/settings/node/certificate.png "Certificate")  
+
+ - Include signature  
+ - Copy certificate to clibboard  
+   You can copy this text and send it to your friend via email or some other way. 
+ - Save certificate to file  
+   Export your certificate to file to send it 
+   to your friends so they can import it. 
+   The certificate includes your SSLID/Location, IP, Port, DynDNS
+ - Create new node...  
+   Export your Certificate to create a new location with this User. 
+
 ####Show Statistics
 ![node statistics](../img/settings/statistic/node_show_statistic.png "Node Statistic Show Button")  
   
