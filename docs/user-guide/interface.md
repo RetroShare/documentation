@@ -3,22 +3,99 @@
 ##News-Feed
 ![news feed interface](../img/interface/newsfeed.png "Newsfeed")  
 
-The News Feed diplays the last events on your network, sorted by the time you received them. This gives you a summary of the activity of your friends. You can configure which events to show by pressing on Options.  
+The News Feed diplays the last events on your network, 
+sorted by the time you received them. 
+This gives you a summary of the activity of your friends. 
+You can configure which events to show by pressing on [Options](../user-guide/settings/#notify).  
+
 The various events shown are:  
+
  - Connection attempts (useful to make friends with new people and cotnrol who's trying to reach you)
  - Channel and Forum posts
  - New Channel and Forums you can subscribe to 
  - Private messages from your friends
+
+![news feed example](../img/interface/newsfeed/feed.png "Newsfeed Example")  
+This shows an entry in the newsfeed because a friend came online, 
+and this friend sent a message. 
+
 
 ##Network
 ![network interface](../img/interface/network.png "Network")  
 The Network tab shows your friend RetroShare nodes: the neighbor RetroShare nodes that are connected to you.  
 You can group noed together to allow a finer level of information access, for instance to only allow some nodes to see some of your files. 
 
-On the right, you will find 3 useful tabs:  
- - Broadcast sends messages to all connected nodes at once
- - Local network graph shows the network around you, based on discovery information
- - Keyring contains node keys you collected, mostly forwarded to you by your friend nodes
+On the right, you will find 3 useful tabs:
+
+ - [Broadcast](../user-guide/interface/#broadcast)  
+   sends messages to all connected nodes at once
+ - [Local network graph](../user-guide/interface/#network-graph)  
+   shows the network around you, based on discovery information
+ - [Keyring](../user-guide/interface/#keyring)  
+   contains node keys you collected, mostly forwarded to you by your friend nodes
+
+![Network](../img/interface/network/redqueen.png "Network RedQueen")  
+The Red Queen is having a friend in here Network/Friendlist. 
+It's the User Bunny and RedQueen is connected to both of his Locations. 
+Bunny runs two different locations. One for each of his device. 
+The location *shelter* is running on his laptop, and the location *hole* 
+is on his personal Computer. 
+
+###Change Avatar
+![Avatar and Message](../img/interface/network/avatar_message.png "Avatar and Message")  
+By clicking on the default Avatar Icon you can set your avatar picture 
+to any picture you prefer. 
+
+![empty Avatar](../img/interface/network/empty_avatar.png "Empty Avatar")  
+Only your friends will be able to see it. You can also change it later on.  
+
+![Change Avatar](../img/interface/network/change_avatar.png "Change Avatar")  
+
+###Status Message
+![Status Button](../img/interface/network/status_button.png "Status Button")  
+Your status message will be shown in the Network/Friendlist of your friends 
+beside your Avatar. 
+![Status Edit](../img/interface/network/status_edit.png "Status Edit")  
+
+###Friendlist
+
+Friends are sorted by name or by state. 
+
+![Friendlist](../img/interface/network/friendlist.png "Friendlist")  
+
+The columns with the last contact and ip can be enabled with right click.  
+![Tree View](../img/interface/network/tree_view.png "Tree View Option")  
+
+###Broadcast
+The Broadcast Chat sends a message to all online friends at once. 
+![Broadcast](../img/interface/network/broadcast.png "Broadcast")  
+
+###Network Graph
+The network graph shows all friends and their interconnections. 
+Bunny has friended with Alice and RedQueen. 
+![Graph](../img/interface/network/network_graph.png "Network Graph")  
+
+###Keyring
+RetroShare collects keys from other nodes in the network, 
+mostly forwarded by friends.  
+![Keyring](../img/interface/network/keyring.png "Keyring")  
+
+Columns of the Keyring 
+
+ - Do you accept connections signed by this key  
+ - Name of the Key  
+ - This column indicates the trust level and wheter you signed their key  
+ - Did that peer sign your key  
+ - Certificate ID  
+ - Last time this certificate has been used
+ 
+ Colours
+ 
+ - Yellow is your own Key  
+ - Green are Friends  
+ - Grey are Persons  
+
+
 
 ##People
 ![people interface](../img/interface/people.png "People")  
