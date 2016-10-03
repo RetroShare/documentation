@@ -95,8 +95,6 @@ Columns of the Keyring
  - Green are Friends  
  - Grey are Persons  
 
-
-
 ##People
 ![people interface](../img/interface/people.png "People")  
 
