@@ -73,7 +73,8 @@ To receive RetroShare via your package manager, you can add the repository to yo
 
 Retroshare is currently available on openSUSE.
 
-Install stable release via:
+Install stable release via: ![oneclick](../img/install/oneclick.png "yast oneclick Install")  
+
 Link:  
 
  - [13.2](http://software.opensuse.org/ymp/home:AsamK:RetroShare/openSUSE_13.2/retroshare06.ymp)  
@@ -84,6 +85,40 @@ Download binary or add Repository manually:
 
  - [Stable release](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06) 
  - [Nightly snapshot](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06-git)
+
+
+
+For **openSUSE Tumbleweed** run the following as root:  
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Tumbleweed/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06
+
+For **openSUSE Leap 42.2** run the following as root:  
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.2/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06
+
+For **openSUSE Leap 42.1** run the following as root:  
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.1/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06
+
+For **openSUSE Factory ARM** run the following as root:  
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Factory_ARM/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06
+
+For **openSUSE 13.2** run the following as root:  
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_13.2/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06
+
+
 
 
 ##Arch Linux
@@ -104,8 +139,37 @@ RetroShare Packages for Arch are also available on openSUSE Build Service
 
 Retroshare is currently available on Fedora 23 and 24.
 
- - Stable: [OBS Stable](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06)  
- - Nighlty Builds: [OBS Nightly](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06-git)
+###Stable Fedora
+
+ - Fedora 24 32bit [v0.6.1-3.1.i686.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_24/i686/retroshare06-0.6.1-3.1.i686.rpm)   
+ - Fedora 24 64bit [v0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_24/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)  
+ - Fedora 23 32bit [v0.6.1-3.1.i686.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_23/i686/retroshare06-0.6.1-3.1.i686.rpm)  
+ - Fedora 23 64bit [v0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_23/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)  
+ 
+For **Fedora 24** run the following as **root**:
+
+       dnf config-manager --add-repo http://download.opensuse.org/repositories/home:AsamK:RetroShare/Fedora_24/home:AsamK:RetroShare.repo
+       dnf install retroshare06
+
+For **Fedora 23** run the following as *+root**:
+
+       dnf config-manager --add-repo http://download.opensuse.org/repositories/home:AsamK:RetroShare/Fedora_23/home:AsamK:RetroShare.repo
+       dnf install retroshare06
+ 
+###Nightly Builds Fedora
+These builds are released daily and may contain contain bugs. 
+
+For **Fedora 24** run the following as **root**:
+
+       dnf config-manager --add-repo http://download.opensuse.org/repositories/home:AsamK:RetroShare/Fedora_24/home:AsamK:RetroShare.repo
+       dnf install retroshare06-git
+
+For **Fedora 23** run the following as *+root**:
+
+       dnf config-manager --add-repo http://download.opensuse.org/repositories/home:AsamK:RetroShare/Fedora_23/home:AsamK:RetroShare.repo
+       dnf install retroshare06-git
+ 
+
 
 ##Gentoo
 ![gentoo logo](../img/install/gentoo_logo.png "Gentoo Install")  
@@ -140,7 +204,24 @@ Link: [Mageia](http://mageia.madb.org/package/show/name/retroshare/)
 ##CentOS
 ![centos logo](../img/install/centos_logo.png "CentOS Install")  
 
-Retroshare is currently available on CentOs.
+###Stable CentOS
+Stable builds are official releases.
 
- - Stable: [OBS Stable](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06)  
- - Nighlty Builds: [OBS Nightly](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06-git)
+Stable Package for CentOS:  
+
+ - CentOS 7 64bit [v0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/CentOS_7/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)  
+
+For **CentOS 7** run the following as root:  
+
+       cd /etc/yum.repos.d/
+       wget http://download.opensuse.org/repositories/home:AsamK:RetroShare/CentOS_7/home:AsamK:RetroShare.repo
+       yum install retroshare06
+
+###Nightly Builds CentOS
+These builds are released daily and may contain contain bugs. 
+
+For **CentOS 7** run the following as root:  
+
+       cd /etc/yum.repos.d/
+       wget http://download.opensuse.org/repositories/home:AsamK:RetroShare/CentOS_7/home:AsamK:RetroShare.repo
+       yum install retroshare06-git
