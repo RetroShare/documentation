@@ -2,6 +2,8 @@
 
 ##Compilation on Linux
 
+![Linux tux logo](../img/developer/tux_logo.png "GNU/Linux")
+
 ###Install package dependencies:
 #### Debian/Ubuntu
 ```bash
@@ -100,6 +102,9 @@ You need to place sqlcipher so that the hierarchy is:
 
 ##Compilation on Windows
 
+
+![windows](../img/developer/windows_logo.png "Windows")
+
 ###Qt Installation
 
 Install Qt via: [Qt Download](http://www.qt.io/download/)  
@@ -189,6 +194,8 @@ to
 
 
 ##Compilation on MacOS
+
+![MacOS logo](../img/developer/apple_logo.png "Apple")
 
 ### Qt Installation
 
