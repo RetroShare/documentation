@@ -1,4 +1,4 @@
-#RetroShare is available for various Operating Systems. 
+#Choose your Operating System 
 
 ##Windows
 ![windows logo](../img/install/windows_logo.png "Windows Install")  
@@ -167,6 +167,7 @@ Download binary or add Repository manually:
        zypper refresh
        zypper install retroshare06-git
 
+
 ##Arch Linux
 ![archlinux logo](../img/install/arch_logo.png "Arch Install")  
 
@@ -180,6 +181,7 @@ RetroShare Packages for Arch are also available on openSUSE Build Service
  - Stable: [OBS Stable](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06)
  - Nighlty Builds: [OBS Nightly](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06-git)
 
+
 ##Fedora
 ![fedora logo](../img/install/fedora_logo.png "Fedora Install")  
 
@@ -189,15 +191,16 @@ Retroshare is currently available on Fedora 23 and 24.
 
  - Fedora 24 32bit [v0.6.1-3.1.i686.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_24/i686/retroshare06-0.6.1-3.1.i686.rpm)   
  - Fedora 24 64bit [v0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_24/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)  
- - Fedora 23 32bit [v0.6.1-3.1.i686.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_23/i686/retroshare06-0.6.1-3.1.i686.rpm)  
- - Fedora 23 64bit [v0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_23/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)  
- 
+
 For **Fedora 24** run the following as **root**:
 
        dnf config-manager --add-repo http://download.opensuse.org/repositories/home:AsamK:RetroShare/Fedora_24/home:AsamK:RetroShare.repo
        dnf install retroshare06
 
-For **Fedora 23** run the following as *+root**:
+ - Fedora 23 32bit [v0.6.1-3.1.i686.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_23/i686/retroshare06-0.6.1-3.1.i686.rpm)  
+ - Fedora 23 64bit [v0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_23/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)  
+ 
+For **Fedora 23** run the following as **root**:
 
        dnf config-manager --add-repo http://download.opensuse.org/repositories/home:AsamK:RetroShare/Fedora_23/home:AsamK:RetroShare.repo
        dnf install retroshare06
@@ -216,7 +219,6 @@ For **Fedora 23** run the following as *+root**:
        dnf install retroshare06-git
  
 
-
 ##Gentoo
 ![gentoo logo](../img/install/gentoo_logo.png "Gentoo Install")  
 
@@ -230,6 +232,7 @@ Retroshare is currently available on FreeBSD via the ports system.
 
 Link: [freshports](https://www.freshports.org/net-p2p/retroshare)
 
+
 ##Raspberry Pi
 ![raspberry Pi logo](../img/install/raspberry_pi_logo.png "Raspberry Pi Install")  
 
@@ -237,6 +240,7 @@ At the moment Raspberry Pi builds are planned for the next release to be include
 Ask the community for handmade builds, or compile it on your own. 
 It's easy to follow the Vanilla Debian compile instructions to create 
 your own Raspbian binaries. 
+
 
 ##Mageia
 ![mageia logo](../img/install/mageia_logo.png "Mageia Install")  
