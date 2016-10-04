@@ -47,6 +47,55 @@ The executables produced will be:
  
  - /usr/bin/RetroShare06  
  - /usr/bin/RetroShare06-nogui  
+ 
+###Compile retroshare-nogui only 
+
+If you want to run RetroShare on a server and don’t need the gui and plugins,
+you can run the following commands to only compile/install the nogui version:
+
+```bash
+	qmake
+	make retroshare-nogui
+	sudo make retroshare-nogui-install_subtargets
+```
+
+###For packagers
+
+Packagers can use PREFIX and LIB\_DIR to customize the installation paths:
+```bash
+	qmake PREFIX=/usr LIB_DIR=/usr/lib64 "CONFIG-=debug" "CONFIG+=release"
+	make
+	make INSTALL_ROOT=${PKGDIR} install
+```
+ 
+ 
+###libsqlcipher
+If libsqlcipher is not available as a package
+
+You need to place sqlcipher so that the hierarchy is:
+
+      retroshare
+          |
+          +--- trunk
+          |
+          +--- lib
+                |
+                +---- sqlcipher
+```bash
+	mkdir lib
+	cd lib
+	git clone git://github.com/sqlcipher/sqlcipher.git
+	cd sqlcipher
+	./configure --enable-tempstore=yes CFLAGS="-DSQLITE_HAS_CODEC" LDFLAGS="-lcrypto"
+	make
+	cd ..
+``` 
+
+
+###Compile and run tests  
+       qmake CONFIG+=tests  
+       make  
+       tests/unittests/unittests  
 
 
 ##Compilation on Windows
@@ -110,7 +159,8 @@ Create a new directory named:
 Right-click on it and choose: *Git Bash Here*  
 
 Paste this text on git console:  
-git clone https://github.com/RetroShare/RetroShare.git  
+
+      git clone https://github.com/RetroShare/RetroShare.git  
 
 
 ###Last Settings
