@@ -1,4 +1,4 @@
-#Choose your Operating System 
+#Select Your Operating System 
 
 ##Windows
 ![windows logo](../img/install/windows_logo.png "Windows Install")  
@@ -66,106 +66,6 @@ To receive RetroShare via your package manager, you can add the repository to yo
     # then
        sudo apt-get update
        sudo apt-get install retroshare06
-
-
-##openSUSE
-![opensuse logo](../img/install/opensuse_logo.png "openSUSE Install")  
-
-Retroshare is currently available on openSUSE. 
-
-Install stable release via: ![oneclick](../img/install/oneclick.png "yast oneclick Install")  
-
-Download binary or add Repository manually:  
-
- - [Stable release](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06) 
- - [Nightly snapshot](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06-git)
-
-
-###Stable openSUSE
-
-**openSUSE Tumbleweed**  packages 
-
- - [retroshare06-0.6.1-3.7.i586.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Tumbleweed/i586/retroshare06-0.6.1-3.7.i586.rpm)
- - [retroshare06-0.6.1-3.7.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Tumbleweed/x86_64/retroshare06-0.6.1-3.7.x86_64.rpm)  
-
-**openSUSE Tumbleweed** repository  
-
-       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Tumbleweed/home:AsamK:RetroShare.repo
-       zypper refresh
-       zypper install retroshare06
-
-**openSUSE Leap 42.2**  packages
-
- - [retroshare06-0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Leap_42.2/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)
-
-**openSUSE Leap 42.2** repository  
-
-       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.2/home:AsamK:RetroShare.repo
-       zypper refresh
-       zypper install retroshare06
-
-**openSUSE Leap 42.1** packages
-
- - [retroshare06-0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Leap_42.1/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)
-
-**openSUSE Leap 42.1** repository  
-
-       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.1/home:AsamK:RetroShare.repo
-       zypper refresh
-       zypper install retroshare06
-       
-**openSUSE Factory ARM** packages
-
- - [retroshare06-0.6.1-3.6.armv7hl.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Factory_ARM/armv7hl/retroshare06-0.6.1-3.6.armv7hl.rpm)
-
-**openSUSE Factory ARM** repository  
-
-       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Factory_ARM/home:AsamK:RetroShare.repo
-       zypper refresh
-       zypper install retroshare06
-
-**openSUSE 13.2** packages
-
- - [retroshare06-0.6.0-1.4.i586.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_13.2/i586/retroshare06-0.6.0-1.4.i586.rpm)
- - [retroshare06-0.6.0-1.4.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_13.2/x86_64/retroshare06-0.6.0-1.4.x86_64.rpm)
-
-**openSUSE 13.2** repository
-
-       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_13.2/home:AsamK:RetroShare.repo
-       zypper refresh
-       zypper install retroshare06
-
-###Nightly Builds openSUSE
-
-**openSUSE Tumbleweed**
-
-       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Tumbleweed/home:AsamK:RetroShare.repo
-       zypper refresh
-       zypper install retroshare06-git
-
-**openSUSE Leap 42.2**
-
-       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.2/home:AsamK:RetroShare.repo
-       zypper refresh
-       zypper install retroshare06-git
-
-**openSUSE Leap 42.1**
-
-       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.1/home:AsamK:RetroShare.repo
-       zypper refresh
-       zypper install retroshare06-git
-
-**openSUSE Factory ARM**
-
-       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Factory_ARM/home:AsamK:RetroShare.repo
-       zypper refresh
-       zypper install retroshare06-git
-
-**openSUSE 13.2**
-
-       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_13.2/home:AsamK:RetroShare.repo
-       zypper refresh
-       zypper install retroshare06-git
 
 
 ##Arch Linux
@@ -275,3 +175,103 @@ For **CentOS 7** run the following as root:
        cd /etc/yum.repos.d/
        wget http://download.opensuse.org/repositories/home:AsamK:RetroShare/CentOS_7/home:AsamK:RetroShare.repo
        yum install retroshare06-git
+
+
+##openSUSE
+![opensuse logo](../img/install/opensuse_logo.png "openSUSE Install")  
+
+Retroshare is currently available on openSUSE. 
+
+Install stable release via: ![oneclick](../img/install/oneclick.png "yast oneclick Install")  
+
+Download binary or add Repository manually:  
+
+ - [Stable release](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06) 
+ - [Nightly snapshot](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06-git)
+
+
+###Stable openSUSE
+
+**openSUSE Tumbleweed**  packages 
+
+ - [retroshare06-0.6.1-3.7.i586.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Tumbleweed/i586/retroshare06-0.6.1-3.7.i586.rpm)
+ - [retroshare06-0.6.1-3.7.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Tumbleweed/x86_64/retroshare06-0.6.1-3.7.x86_64.rpm)  
+
+**openSUSE Tumbleweed** repository  
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Tumbleweed/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06
+
+**openSUSE Leap 42.2**  packages
+
+ - [retroshare06-0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Leap_42.2/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)
+
+**openSUSE Leap 42.2** repository  
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.2/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06
+
+**openSUSE Leap 42.1** packages
+
+ - [retroshare06-0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Leap_42.1/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)
+
+**openSUSE Leap 42.1** repository  
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.1/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06
+       
+**openSUSE Factory ARM** packages
+
+ - [retroshare06-0.6.1-3.6.armv7hl.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Factory_ARM/armv7hl/retroshare06-0.6.1-3.6.armv7hl.rpm)
+
+**openSUSE Factory ARM** repository  
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Factory_ARM/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06
+
+**openSUSE 13.2** packages
+
+ - [retroshare06-0.6.0-1.4.i586.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_13.2/i586/retroshare06-0.6.0-1.4.i586.rpm)
+ - [retroshare06-0.6.0-1.4.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_13.2/x86_64/retroshare06-0.6.0-1.4.x86_64.rpm)
+
+**openSUSE 13.2** repository
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_13.2/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06
+
+###Nightly Builds openSUSE
+
+**openSUSE Tumbleweed**
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Tumbleweed/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06-git
+
+**openSUSE Leap 42.2**
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.2/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06-git
+
+**openSUSE Leap 42.1**
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.1/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06-git
+
+**openSUSE Factory ARM**
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Factory_ARM/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06-git
+
+**openSUSE 13.2**
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_13.2/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06-git
