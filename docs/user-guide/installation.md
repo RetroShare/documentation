@@ -1,4 +1,4 @@
-RetroShare is available for various Operating Systems. 
+#Choose your Operating System 
 
 ##Windows
 ![windows logo](../img/install/windows_logo.png "Windows Install")  
@@ -71,15 +71,9 @@ To receive RetroShare via your package manager, you can add the repository to yo
 ##openSUSE
 ![opensuse logo](../img/install/opensuse_logo.png "openSUSE Install")  
 
-Retroshare is currently available on openSUSE.
+Retroshare is currently available on openSUSE. 
 
 Install stable release via: ![oneclick](../img/install/oneclick.png "yast oneclick Install")  
-
-Link:  
-
- - [13.2](http://software.opensuse.org/ymp/home:AsamK:RetroShare/openSUSE_13.2/retroshare06.ymp)  
- - [13.1](http://software.opensuse.org/ymp/home:AsamK:RetroShare/openSUSE_13.1/retroshare06.ymp)   
- - [Factory](http://software.opensuse.org/ymp/home:AsamK:RetroShare/openSUSE_Factory/retroshare06.ymp)  
 
 Download binary or add Repository manually:  
 
@@ -87,38 +81,91 @@ Download binary or add Repository manually:
  - [Nightly snapshot](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06-git)
 
 
+###Stable openSUSE
 
-For **openSUSE Tumbleweed** run the following as root:  
+**openSUSE Tumbleweed**  packages 
+
+ - [retroshare06-0.6.1-3.7.i586.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Tumbleweed/i586/retroshare06-0.6.1-3.7.i586.rpm)
+ - [retroshare06-0.6.1-3.7.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Tumbleweed/x86_64/retroshare06-0.6.1-3.7.x86_64.rpm)  
+
+**openSUSE Tumbleweed** repository  
 
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Tumbleweed/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06
 
-For **openSUSE Leap 42.2** run the following as root:  
+**openSUSE Leap 42.2**  packages
+
+ - [retroshare06-0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Leap_42.2/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)
+
+**openSUSE Leap 42.2** repository  
 
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.2/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06
 
-For **openSUSE Leap 42.1** run the following as root:  
+**openSUSE Leap 42.1** packages
+
+ - [retroshare06-0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Leap_42.1/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)
+
+**openSUSE Leap 42.1** repository  
 
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.1/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06
+       
+**openSUSE Factory ARM** packages
 
-For **openSUSE Factory ARM** run the following as root:  
+ - [retroshare06-0.6.1-3.6.armv7hl.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Factory_ARM/armv7hl/retroshare06-0.6.1-3.6.armv7hl.rpm)
+
+**openSUSE Factory ARM** repository  
 
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Factory_ARM/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06
 
-For **openSUSE 13.2** run the following as root:  
+**openSUSE 13.2** packages
+
+ - [retroshare06-0.6.0-1.4.i586.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_13.2/i586/retroshare06-0.6.0-1.4.i586.rpm)
+ - [retroshare06-0.6.0-1.4.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_13.2/x86_64/retroshare06-0.6.0-1.4.x86_64.rpm)
+
+**openSUSE 13.2** repository
 
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_13.2/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06
 
+###Nightly Builds openSUSE
 
+**openSUSE Tumbleweed**
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Tumbleweed/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06-git
+
+**openSUSE Leap 42.2**
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.2/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06-git
+
+**openSUSE Leap 42.1**
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.1/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06-git
+
+**openSUSE Factory ARM**
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Factory_ARM/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06-git
+
+**openSUSE 13.2**
+
+       zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_13.2/home:AsamK:RetroShare.repo
+       zypper refresh
+       zypper install retroshare06-git
 
 
 ##Arch Linux
@@ -134,6 +181,7 @@ RetroShare Packages for Arch are also available on openSUSE Build Service
  - Stable: [OBS Stable](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06)
  - Nighlty Builds: [OBS Nightly](https://software.opensuse.org/download.html?project=home%3AAsamK%3ARetroShare&package=retroshare06-git)
 
+
 ##Fedora
 ![fedora logo](../img/install/fedora_logo.png "Fedora Install")  
 
@@ -143,15 +191,16 @@ Retroshare is currently available on Fedora 23 and 24.
 
  - Fedora 24 32bit [v0.6.1-3.1.i686.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_24/i686/retroshare06-0.6.1-3.1.i686.rpm)   
  - Fedora 24 64bit [v0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_24/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)  
- - Fedora 23 32bit [v0.6.1-3.1.i686.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_23/i686/retroshare06-0.6.1-3.1.i686.rpm)  
- - Fedora 23 64bit [v0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_23/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)  
- 
+
 For **Fedora 24** run the following as **root**:
 
        dnf config-manager --add-repo http://download.opensuse.org/repositories/home:AsamK:RetroShare/Fedora_24/home:AsamK:RetroShare.repo
        dnf install retroshare06
 
-For **Fedora 23** run the following as *+root**:
+ - Fedora 23 32bit [v0.6.1-3.1.i686.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_23/i686/retroshare06-0.6.1-3.1.i686.rpm)  
+ - Fedora 23 64bit [v0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_23/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)  
+ 
+For **Fedora 23** run the following as **root**:
 
        dnf config-manager --add-repo http://download.opensuse.org/repositories/home:AsamK:RetroShare/Fedora_23/home:AsamK:RetroShare.repo
        dnf install retroshare06
@@ -170,7 +219,6 @@ For **Fedora 23** run the following as *+root**:
        dnf install retroshare06-git
  
 
-
 ##Gentoo
 ![gentoo logo](../img/install/gentoo_logo.png "Gentoo Install")  
 
@@ -184,6 +232,7 @@ Retroshare is currently available on FreeBSD via the ports system.
 
 Link: [freshports](https://www.freshports.org/net-p2p/retroshare)
 
+
 ##Raspberry Pi
 ![raspberry Pi logo](../img/install/raspberry_pi_logo.png "Raspberry Pi Install")  
 
@@ -191,6 +240,7 @@ At the moment Raspberry Pi builds are planned for the next release to be include
 Ask the community for handmade builds, or compile it on your own. 
 It's easy to follow the Vanilla Debian compile instructions to create 
 your own Raspbian binaries. 
+
 
 ##Mageia
 ![mageia logo](../img/install/mageia_logo.png "Mageia Install")  
