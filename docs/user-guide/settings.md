@@ -374,6 +374,21 @@ Clicking on the systray notification shows more details about the notification.
   
 ![statistics](../img/settings/statistic/statistic.png "Node Statistic")  
 
+#####Bandwidth Details
+<a href="../../img/settings/statistic/bandwidth_statistic.png" target="_blank">![Bandwidth](../img/settings/statistic/bandwidth_thumb.png "Statistic Bandwidth")</a>  
+(click to enlarge)  
+
+#####Turtle Router Details
+<a href="../../img/settings/statistic/turtle_router.png" target="_blank">![Turtle Router](../img/settings/statistic/turtle_router_thumb.png "Turtle Router")</a>  
+(click to enlarge)  
+
+#####Global Router Details
+<a href="../../img/settings/statistic/global_router.png" target="_blank">![Global Router](../img/settings/statistic/global_router_thumb.png "Global Router")</a>  
+(click to enlarge)  
+
+#####RTT Details
+<a href="../../img/settings/statistic/rtt.png" target="_blank">![RTT](../img/settings/statistic/rtt_thumb.png "RTT")</a>  
+(click to enlarge) 
 
 ###Certificate
 
