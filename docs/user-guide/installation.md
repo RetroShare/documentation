@@ -89,32 +89,40 @@ Retroshare is currently available on Fedora 23 and 24.
 
 ###Stable Fedora
 
+**Fedora 24**
+
  - Fedora 24 32bit [v0.6.1-3.1.i686.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_24/i686/retroshare06-0.6.1-3.1.i686.rpm)   
  - Fedora 24 64bit [v0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_24/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)  
 
-For **Fedora 24** run the following as **root**:
+install via package manager
 
+    # run the following as root to install RetroShare via package manager
        dnf config-manager --add-repo http://download.opensuse.org/repositories/home:AsamK:RetroShare/Fedora_24/home:AsamK:RetroShare.repo
        dnf install retroshare06
+
+**Fedora 23**
 
  - Fedora 23 32bit [v0.6.1-3.1.i686.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_23/i686/retroshare06-0.6.1-3.1.i686.rpm)  
  - Fedora 23 64bit [v0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/Fedora_23/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)  
  
-For **Fedora 23** run the following as **root**:
+install via package manager
 
+    # run the following as root to install RetroShare via package manager
        dnf config-manager --add-repo http://download.opensuse.org/repositories/home:AsamK:RetroShare/Fedora_23/home:AsamK:RetroShare.repo
        dnf install retroshare06
  
 ###Nightly Builds Fedora
 These builds are released daily and may contain contain bugs. 
 
-For **Fedora 24** run the following as **root**:
+**Fedora 24**  
 
+    # run the following as root to install RetroShare via package manager
        dnf config-manager --add-repo http://download.opensuse.org/repositories/home:AsamK:RetroShare/Fedora_24/home:AsamK:RetroShare.repo
        dnf install retroshare06-git
 
-For **Fedora 23** run the following as *+root**:
+**Fedora 23**  
 
+    # run the following as root to install RetroShare via package manager
        dnf config-manager --add-repo http://download.opensuse.org/repositories/home:AsamK:RetroShare/Fedora_23/home:AsamK:RetroShare.repo
        dnf install retroshare06-git
  
@@ -157,12 +165,13 @@ Link: [Mageia](http://mageia.madb.org/package/show/name/retroshare/)
 ###Stable CentOS
 Stable builds are official releases.
 
-Stable Package for CentOS:  
+**CentOS 7**
 
- - CentOS 7 64bit [v0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/CentOS_7/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)  
+ - 64bit [v0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/CentOS_7/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)  
 
-For **CentOS 7** run the following as root:  
+install via package manager  
 
+    # run the following as root to install RetroShare via package manager
        cd /etc/yum.repos.d/
        wget http://download.opensuse.org/repositories/home:AsamK:RetroShare/CentOS_7/home:AsamK:RetroShare.repo
        yum install retroshare06
@@ -170,8 +179,9 @@ For **CentOS 7** run the following as root:
 ###Nightly Builds CentOS
 These builds are released daily and may contain contain bugs. 
 
-For **CentOS 7** run the following as root:  
+install via package manager  
 
+    # run the following as root to install RetroShare via package manager
        cd /etc/yum.repos.d/
        wget http://download.opensuse.org/repositories/home:AsamK:RetroShare/CentOS_7/home:AsamK:RetroShare.repo
        yum install retroshare06-git
@@ -197,8 +207,9 @@ Download binary or add Repository manually:
  - [retroshare06-0.6.1-3.7.i586.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Tumbleweed/i586/retroshare06-0.6.1-3.7.i586.rpm)
  - [retroshare06-0.6.1-3.7.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Tumbleweed/x86_64/retroshare06-0.6.1-3.7.x86_64.rpm)  
 
-**openSUSE Tumbleweed** repository  
+install via package manager  
 
+    # run the following as root to install RetroShare via package manager
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Tumbleweed/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06
@@ -207,8 +218,9 @@ Download binary or add Repository manually:
 
  - [retroshare06-0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Leap_42.2/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)
 
-**openSUSE Leap 42.2** repository  
+install via package manager
 
+    # run the following as root to install RetroShare via package manager
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.2/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06
@@ -217,8 +229,9 @@ Download binary or add Repository manually:
 
  - [retroshare06-0.6.1-3.1.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Leap_42.1/x86_64/retroshare06-0.6.1-3.1.x86_64.rpm)
 
-**openSUSE Leap 42.1** repository  
+install via package manager
 
+    # run the following as root to install RetroShare via package manager
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.1/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06
@@ -227,8 +240,9 @@ Download binary or add Repository manually:
 
  - [retroshare06-0.6.1-3.6.armv7hl.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_Factory_ARM/armv7hl/retroshare06-0.6.1-3.6.armv7hl.rpm)
 
-**openSUSE Factory ARM** repository  
+install via package manager
 
+    # run the following as root to install RetroShare via package manager
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Factory_ARM/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06
@@ -238,8 +252,9 @@ Download binary or add Repository manually:
  - [retroshare06-0.6.0-1.4.i586.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_13.2/i586/retroshare06-0.6.0-1.4.i586.rpm)
  - [retroshare06-0.6.0-1.4.x86_64.rpm](http://download.opensuse.org/repositories/home:/AsamK:/RetroShare/openSUSE_13.2/x86_64/retroshare06-0.6.0-1.4.x86_64.rpm)
 
-**openSUSE 13.2** repository
+install via package manager
 
+    # run the following as root to install RetroShare via package manager
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_13.2/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06
@@ -248,30 +263,35 @@ Download binary or add Repository manually:
 
 **openSUSE Tumbleweed**
 
+    # run the following as root to install RetroShare via package manager
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Tumbleweed/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06-git
 
 **openSUSE Leap 42.2**
 
+    # run the following as root to install RetroShare via package manager
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.2/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06-git
 
 **openSUSE Leap 42.1**
 
+    # run the following as root to install RetroShare via package manager
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Leap_42.1/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06-git
 
 **openSUSE Factory ARM**
 
+    # run the following as root to install RetroShare via package manager
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_Factory_ARM/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06-git
 
 **openSUSE 13.2**
 
+    # run the following as root to install RetroShare via package manager
        zypper addrepo http://download.opensuse.org/repositories/home:AsamK:RetroShare/openSUSE_13.2/home:AsamK:RetroShare.repo
        zypper refresh
        zypper install retroshare06-git
