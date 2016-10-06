@@ -123,6 +123,84 @@ In addition, file transfer is multi-source and allows swarming (you can be sourc
 <a href="../../img/interface/filesharing/up_and_down.png" target="_blank">![up and down](../img/interface/filesharing/up_and_down.png "Up and Downloading")</a>
 In this Screenshot, the files are not yet finished and still start to upload to other friends. 
 
+###Download
+<a href="../../img/interface/filesharing/download.png" target="_blank">![downlaod](../img/interface/filesharing/download.png "Download")</a>  
+
+
+Columns from the Download Tab ![downlaod tab](../img/interface/filesharing/download_tab.png "Download Tab")  
+
+ - Name  
+   Name of the file    
+ - Size  
+   Size of the downloaded  
+ - Completed  
+   already downloaded size  
+ - Speed  
+   actual speed of the download  
+ - Progress / Availability  
+   each Chunk (1 Chunk = 1MB part) is shows it status by colour
+   ![progress bar](../img/interface/filesharing/progress_bar.png "Progress Bar")  
+    - Blue - already finished
+    - Red - active download
+    - Yellow - calculating checksums
+    - empty - not downloaded yet
+    
+ - Sources  
+   active sources in brackets the total number of available files in the network   
+ - Status  
+    - Waiting
+    - Downloading  
+    - Paused  
+      manually paused state, can be resumed also  
+    - Checking  
+      calculating checksums of all Chunks of the Download  
+    - Completed  
+      The Download has finished, and should be available in the Download Directorie
+ - Speed / Queue position   
+    - Faster  
+    - Average  
+    - Slower   
+ - Remaining  
+   remaining file size to download till it's finished
+ - Download Time  
+   estimated time to finish the download  
+ - Hash  
+   Hash number of the file [SHA1](https://en.wikipedia.org/wiki/SHA-1)
+ - Last Time Seen  
+   last time when the source of this file has been available  
+ - Path  
+   destination folder
+
+Multi Sources are shown in the Sources Column and can be 
+displayed in detail by clicking the dropdown button
+
+ - ![active tunnel](../img/interface/filesharing/green_source.png "active Tunnel") active source transferring data  
+ - ![yellow tunnel](../img/interface/filesharing/yellow_source.png "inactive Tunnel") no data currently transferring  
+
+By right-clicking on the download, the Context menu provides actions to the user.
+
+![context menu download](../img/interface/filesharing/context_menu.png "Download Context Menu") 
+
+ - Priority  
+   ![context menu priority](../img/interface/filesharing/context_menu_priority.png "Context Menu Priority")  
+ - Chunk Strategy  
+   ![context menu strategy](../img/interface/filesharing/context_menu_strategy.png "Context Menu Strategy")  
+ - Rename file...  
+ - Set destination directory  
+   ![context menu destination](../img/interface/filesharing/specify_destination.png "Context Menu Destination")  
+ - Pause  
+ - Force Check  
+ - Cancel  
+ - Open Folder  
+ - Details...
+ - Clear Completed  
+ - Copy RetroShare Link  
+ - Expand all  
+ - Collapse all  
+ - Collection  
+   ![context menu collection](../img/interface/filesharing/context_menu_collection.png "Context Menu Collection")     
+   
+
 You can share files using the "Directory Plus" icon from the left side bar. These files will be listed in the My Files tab. You can decide for each friend group wheter they can or not see these files in their Friends Files tab. 
 
 The search tab reports files from your friends' file lists, and distant files that can be reached anonymously using the multi-hop tunneling system. 
