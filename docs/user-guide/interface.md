@@ -122,6 +122,17 @@ In addition, file transfer is multi-source and allows swarming (you can be sourc
 
 <a href="../../img/interface/filesharing/up_and_down.png" target="_blank">![up and down](../img/interface/filesharing/up_and_down.png "Up and Downloading")</a>
 In this Screenshot, the files are not yet finished and still start to upload to other friends. 
+##File Sharing
+![filesharing interface](../img/interface/filesharing.png "File Sharing")  
+
+RetroShare birngs two ways fo transferring files: 
+
+ - direct file transfers from your friends
+ - distant anonymous tunneled transfers  
+In addition, file transfer is multi-source and allows swarming (you can be source while downloading).  
+
+<a href="../../img/interface/filesharing/up_and_down.png" target="_blank">![up and down](../img/interface/filesharing/up_and_down.png "Up and Downloading")</a>
+In this Screenshot, the files are not yet finished and still start to upload to other friends. 
 
 ###Download
 <a href="../../img/interface/filesharing/download.png" target="_blank">![downlaod](../img/interface/filesharing/download.png "Download")</a>  
@@ -171,12 +182,15 @@ Columns from the Download Tab ![downlaod tab](../img/interface/filesharing/downl
  - Path  
    destination folder
 
+###Multiple Sources  
 Multi Sources are shown in the Sources Column and can be 
 displayed in detail by clicking the dropdown button
 
  - ![active tunnel](../img/interface/filesharing/green_source.png "active Tunnel") active source transferring data  
  - ![yellow tunnel](../img/interface/filesharing/yellow_source.png "inactive Tunnel") no data currently transferring  
 
+
+###Context Menu  
 By right-clicking on the download, the Context menu provides actions to the user.
 
 ![context menu download](../img/interface/filesharing/context_menu.png "Download Context Menu") 
@@ -188,19 +202,35 @@ By right-clicking on the download, the Context menu provides actions to the user
  - Rename file...  
  - Set destination directory  
    ![context menu destination](../img/interface/filesharing/specify_destination.png "Context Menu Destination")  
+   Set the directory where the file should be put when it's completed
  - Pause  
+   Pause the download and resume it later
  - Force Check  
+   Trigger a check of the checksums manually
  - Cancel  
+   Stop the download
  - Open Folder  
- - Details...
+   Open the Folder where the file has been downloaded
+ - Details...  
+   show Details from the download.
+   ![context menu details](../img/interface/filesharing/context_details.png "Context Menu Details")  
  - Clear Completed  
+   removes finished downloads, and removes them from the Download Tab  
  - Copy RetroShare Link  
- - Expand all  
- - Collapse all  
- - Collection  
-   ![context menu collection](../img/interface/filesharing/context_menu_collection.png "Context Menu Collection")     
+   copy the RetroShare Link to the Clipboard  
    
-
+        retroshare://file?name=RetroShare-0.6.1-Windows-Portable-20161005-d020d8d8-Qt-5.7.0-dev.7z&size=20476577&hash=d5d91d4ec9438c6df2dcbd9236d4faebd2eef75d
+   
+   ![context menu details links](../img/interface/filesharing/context_details_links.png "Context Menu Details Links")  
+   
+ - Expand all  
+   Open all downloads with multi source dropdown buttons
+ - Collapse all  
+   Collapes all downloads with open multisources 
+ - Collection  
+   ![context menu collection](../img/interface/filesharing/context_menu_collection.png "Context Menu Collection")  
+    - download from **.rscollection** files 
+   
 You can share files using the "Directory Plus" icon from the left side bar. These files will be listed in the My Files tab. You can decide for each friend group wheter they can or not see these files in their Friends Files tab. 
 
 The search tab reports files from your friends' file lists, and distant files that can be reached anonymously using the multi-hop tunneling system. 
