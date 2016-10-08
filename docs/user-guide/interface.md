@@ -237,9 +237,23 @@ The search tab reports files from your friends' file lists, and distant files th
 
 ##Chat Lobbies
 ![chat-lobbies interface](../img/interface/chat-lobbies.png "Chat Lobbies")  
-Chat lobbies are distributed chat rooms, and work pretty much like IRC. They allow you to talk anonymously with tons of people without the need to make friends.  
+Chat lobbies are distributed chat rooms, and work pretty much like 
+[IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) or 
+[XMPP/Jabber](https://de.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol). 
+They allow you to talk anonymously with tons of people without the need to make friends. 
+Chatrooms are decentralized and serverless. This means they do not require a central server and are shared between direct friends. 
 
-A chat lobby can be public (your friends see it) or private (your friends can't see it, unless you invite them with +). Once you have been invited to a private lobby, you will be able o see it when your friends are using it.  
+![empty chatrooms](../img/interface/chatrooms/empty_chat.png "Empty Chatrooms")  
+
+###Types of Chat Rooms  
+ - Public Chatrooms  
+   You can join all chatrooms which are subscribed by your friends. 
+   Your friends will be able to join all chatrooms which you have subscribed.  
+ - Privat Chatrooms  
+   This chatrooms is only visible by friends  
+   
+A chat lobby can be public (your friends see it) or private (your friends can't see it, unless you invite them with +). 
+Once you have been invited to a private lobby, you will be able o see it when your friends are using it.  
 
 The list at the left shows chat lobbies your friends are participating in. You can either  
  - Right click to create a new chat lobby 
