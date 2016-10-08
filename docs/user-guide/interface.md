@@ -98,18 +98,125 @@ Columns of the Keyring
 ##People
 ![people interface](../img/interface/people.png "People")  
 
-**Identities**  
-In this tab you can create/edit pseudo/anonymous identities, and circles. 
+Identities are used to securely identify your data: sign messages in chat 
+lobbies, forum and channel posts, receive feedback using RetroShare 
+built-in email system, post comments after channel posts, 
+chat using secured tunnels, etc. 
 
-Identities are used to securely identify your data: sign messages in chat lobbies, forum and channel posts, receive feedback using RetroShare built-in email system, post comments after channel posts, chat using secured tunnels, etc. 
+![person](../img/interface/people/people.png "People")  
 
-Identities cna optionally be signed by your RetroShare node's certificate. Signed identities are easier to trust but are easily linked to your node's IP address. 
+###Identities  
+Two kinds of Identities can be utilized. 
 
-Anonymous identities allow you to anonymously interact with other users. They cannot be spoofed, but noone can prove who really owns a given identity. 
+Click the ![add ID](../img/interface/people/add_id.png "Create New Identity") 
+Icon to create a new Identity ![add ID menu](../img/interface/people/add_id_menu.png "Add ID Menu") 
 
-Circles are groups if identities (anonymous or signed), that are shared at a distance over the network. They can be used to restrict the visibility to forums, channels, etc. 
+####Pseudonymous Identities
+Identities can optionally be signed by your RetroShare node's certificate. 
+Signed identities are easier to trust but are easily linked to your node's IP address. 
 
-A circle can be restricted to another circle, thereby limiting it's visibility to members of that circle or even self-restricted, meaning that it is only visible to invited members. 
+![pseudo ID create](../img/interface/people/pseudo_id_create.png "Pseudo Identity Create")  
+
+ - Identiy Name  
+   Name of the Identity. It is not necessary to use the same name as  
+   your Node User. But it's common.  
+ - Identity ID  
+   Each Identity has it's own crypto hash ID number.  
+ - Type  
+   Owned by you and linked to your RetroShare Node. Instead of Anonymous  
+ - Owner Node ID  
+   GPG-ID Number used by your [Node](../user-guide/settings/#public-information)
+ - Owner Node Name  
+   User Name of your Node User  
+ - Last Used  
+   Last time the Identity has been in use. This can be a forum post or 
+   anything else. 
+ - Your opinion  
+   Your opininon on your owned ID is Neutral. This is used to rate other ID's for a 
+   reputation system. 
+ - Auto-Ban all identities from this node  
+   Ban all ID's from a specific node. 
+ - Neighbor nodes  
+   Average opinion of neighbor nodes about this identity. 
+   Negative is bad, positive is good. Zero is neutral.
+ - Overall  
+   Overall reputation score, accounting for yours and your friends'. 
+   Negative is bad, positive is good. Zero is neutral. If the score is too 
+   low, the identity is flagged as bad, and will be filtered out in forums, 
+   chat lobbies, channels, etc. 
+
+![pseudo bunny ID](../img/interface/people/bunny_id.png "Bunny Pseudonymous ID")  
+
+####Anonymous Identities
+Anonymous identities allow you to anonymously interact with other users. 
+They cannot be spoofed, but noone can prove who really owns a given identity. 
+
+![create freebunny ID](../img/interface/people/create_freebunny.png "Create FreeBunny Anonymous ID") 
+
+ - Identity Name  
+   Name of the Identity. Can be named anything. 
+ - Identity ID  
+   Each Identity has it's own crypto hash ID number.  
+ - Type  
+   Anonymous identity
+ - Last Used  
+   Last time the Identity has been in use. This can be a forum post or 
+   anything else. 
+ - Your opinion  
+   Your opininon on your owned ID is Neutral. This is used to rate other ID's for a 
+   reputation system. 
+ - Neighbor nodes  
+   Average opinion of neighbor nodes about this identity. 
+   Negative is bad, positive is good. Zero is neutral.
+ - Overall  
+   Overall reputation score, accounting for yours and your friends'. 
+   Negative is bad, positive is good. Zero is neutral. If the score is too 
+   low, the identity is flagged as bad, and will be filtered out in forums, 
+   chat lobbies, channels, etc.    
+ 
+![freebunny ID](../img/interface/people/freebunny_id.png "FreeBunny ID") 
+
+###Circles
+![Circles](../img/interface/people/circles.png "Circles") 
+
+Circles are groups of identities (anonymous or signed), that are shared at a distance over the network. They can be used to restrict the visibility to forums, channels, etc.  
+A circle can be restricted to another circle, thereby limiting it's visibility to members of that circle or even self-restricted, meaning that it is only visible to invited members.  
+
+####Create Circles
+
+Click the ![add ID](../img/interface/people/add_id.png "Create New Identity") 
+Icon to create a new Identity ![add ID menu](../img/interface/people/add_id_menu.png "Add ID Menu") 
+
+ - ![public circle](../img/interface/people/public_circle.png "Public Circle") Public  
+   Publicly distributed circles, are visible to your friends, which 
+   will get to know the circle data (Creator, members, etc)
+ - ![private Circle](../img/interface/people/private_circle.png "Private Circle")  Private  
+   Private (a.k.a. self-restricted) circles are only visible to the 
+   invited members of these circles. In practice the circle uses its own list 
+   of invited members to limit its own distribution. 
+ - ![limit Circle](../img/interface/people/limit_circle.png "Limited to Circle") Only visible to members of another Circle  
+   Circles can be restricted to the members of another circle. 
+   Only the members of that second circle will be allowed to see the new 
+   circle and its contents (list of members, etc).
+ - Invited Members  
+   Members of this list will be automatically proposed to join the circle (by accepting membership). 
+   They will not receive data that is restricted to this circle until they do so. 
+
+The circle name, contact author and invited member list will be visible 
+to all invited members. If the cricle is not private, it will also be visible to neighbor nodes 
+of the nodes who host the invited members. 
+
+![Umbrella Circles](../img/interface/people/create_umbrella.png "Creating Umbrella Corporation Circle") 
+
+####Join Circles
+
+![Umbrella Circle Empty](../img/interface/people/umbrella_circle_empty.png "Umbrella Circle Without Members") 
+
+Accept your circle invitation by right clicking  
+![Join Invitation](../img/interface/people/accept_circle.png "Accept Invitation")  
+
+![Umbrella Circles](../img/interface/people/umbrella_circle.png "Umbrella Circle Joined")  
+
 
 ##File Sharing
 ![filesharing interface](../img/interface/filesharing.png "File Sharing")  
