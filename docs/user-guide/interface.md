@@ -229,17 +229,6 @@ In addition, file transfer is multi-source and allows swarming (you can be sourc
 
 <a href="../../img/interface/filesharing/up_and_down.png" target="_blank">![up and down](../img/interface/filesharing/up_and_down.png "Up and Downloading")</a>
 In this Screenshot, the files are not yet finished and still start to upload to other friends. 
-##File Sharing
-![filesharing interface](../img/interface/filesharing.png "File Sharing")  
-
-RetroShare birngs two ways fo transferring files: 
-
- - direct file transfers from your friends
- - distant anonymous tunneled transfers  
-In addition, file transfer is multi-source and allows swarming (you can be source while downloading).  
-
-<a href="../../img/interface/filesharing/up_and_down.png" target="_blank">![up and down](../img/interface/filesharing/up_and_down.png "Up and Downloading")</a>
-In this Screenshot, the files are not yet finished and still start to upload to other friends. 
 
 ###Download
 <a href="../../img/interface/filesharing/download.png" target="_blank">![downlaod](../img/interface/filesharing/download.png "Download")</a>  
