@@ -344,15 +344,155 @@ The search tab reports files from your friends' file lists, and distant files th
 
 ##Chat Lobbies
 ![chat-lobbies interface](../img/interface/chat-lobbies.png "Chat Lobbies")  
-Chat lobbies are distributed chat rooms, and work pretty much like IRC. They allow you to talk anonymously with tons of people without the need to make friends.  
+Chat lobbies are distributed chat rooms, and work pretty much like 
+[IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) or 
+[XMPP/Jabber](https://de.wikipedia.org/wiki/Extensible_Messaging_and_Presence_Protocol). 
+They allow you to talk anonymously with tons of people without the need to make friends. 
+Chatrooms are decentralized and serverless. This means they do not require 
+a central server and are shared between direct friends. 
+All participants receive all messages. 
+Once the lobby is created you can invite other friends from the friends tab. 
 
-A chat lobby can be public (your friends see it) or private (your friends can't see it, unless you invite them with +). Once you have been invited to a private lobby, you will be able o see it when your friends are using it.  
+###Types of Chat Rooms  
+ - Public Chatrooms  
+   You can join all chatrooms which are subscribed by your friends.  
+   Your friends will be able to join all chatrooms which you have subscribed.  
+ - Private Chatrooms  
+   This chatrooms is only visible and shared to invited members. 
+   Your friends can't see it, unless you invite them. 
+   Once you have been invited to a private lobby, 
+   you will be able o see it when your friends are using it.  
+  
+![empty chatrooms](../img/interface/chatrooms/empty_chat.png "Empty Chatrooms")  
 
-The list at the left shows chat lobbies your friends are participating in. You can either  
- - Right click to create a new chat lobby 
- - Double click a chat lobby to enter, chat and show it to your friends
+Join existing chatrooms by double clicking or right-clicking.
 
+Right click offers following possibilities
+
+ - Enter this lobby  
+   Joins the Chatroom  
+ - Add Auto Subscribe  
+   Joins the Chatroom and adds auto subscribe. So this Chatroom will be 
+   joined also after each restart again.  
+ - Columns  
+    - Count  
+      Shows a count of members in this Chatroom  
+    - Topic  
+      Displays the Topic  
+    - Subscribed  
+      If you are already subscribed or not  
+      
+![enter chatrooms](../img/interface/chatrooms/enter_chat.png "Enter Chatrooms")  
+
+
+###Chat Room Creation
+
+Click the ![add ID](../img/interface/people/add_id.png "Create New Identity") 
+Icon to create a new Chat room. 
+
+ - Lobby name  
+   The name of the Chatroom. It can't be changed afterwards.  
+ - Lobby topic  
+   A welcome message in the Lobby room. It can't be changed afterwards.  
+ - Identiy to use  
+   ![select identity](../img/interface/chatrooms/select_identity.png "Select Identity for Chat")  
+   This needs to be one of your identies created in [People](../user-guide/interface/#people)  
+ - Visibility  
+   ![select visibility](../img/interface/chatrooms/select_visibility.png "Select Visibility of Chatroom")  
+   For a list of Chatroom see [Types](../user-guide/interface/#types-of-chat-rooms)
+ - Security  
+   If you check this, only PGP-signed ids can be used to join and talk in this lobby. 
+   This limitation prevents anonymous spamming as it becomes possible 
+   for at least some people in the lobby to locate the spammer's node. 
+ - Contacts  
+   Initially send invitations to online friends of your Node. Only direct 
+   friends can join with their Identities. 
+
+![chatroom creation](../img/interface/chatrooms/create_chat.png "Chatroom Creation")  
+
+The choosen contacts will be invited to the join the chatroom with an identity.  
+
+ - Choose an identity for this lobby: 
+![bunny choose id](../img/interface/chatrooms/invite_bunny_id.png "Bunny choose ID")  
+
+![chatroom invitation](../img/interface/chatrooms/chat_invitation.png "Chatroom Invitation")  
+
+The Friend Bunny has joind the newly created Chatroom. Now all Friends of 
+The Public Chatroom propagates to all Friends of Bunny and they can join as well.  
+![chatroom established](../img/interface/chatrooms/chat_established.png "Chatroom established")  
+
+
+###Chat Room Usage
 Note: For the chat lobbies to work properly, your computer needs be on time. So check your systems clock!
+
+####Chat Window
+
+ - ![invite to chatroom](../img/interface/chatrooms/invite.png "Invite ") invite  
+   invite friends to this chatroom
+ - ![leave chatroom](../img/interface/chatrooms/leave.png "Invite ") leave  
+   leave the chatroom
+ - ![add smileys](../img/interface/chatrooms/smileys.png "Smileys") smileys  
+   choose one of these smileys  
+   ![choose one of these smileys](../img/interface/chatrooms/smileys_available.png "Available Smileys") 
+ - ![attach picture](../img/interface/chatrooms/attach_img.png "Invite ") attach picture  
+   attach a picture into your chat message  
+ - ![attach file](../img/interface/chatrooms/attach_file.png "Invite ") attach file  
+   attach files from your computer into your chat message
+ - ![settings](../img/interface/chatrooms/settings.png "Invite ") settings  
+    - Clear Chat History  
+      emptys the chat window  
+    - Delete Chat History  
+      deletes stored 
+    - Save Chat History  
+      Save Chat History to a file
+    - Browse Message History
+      Browse the already saved Message History 
+    - Set text font color
+      Change your color and font
+    - Switch Identity   
+      Change your Identity  
+      ![chat settings menu](../img/interface/chatrooms/chat_settings_menu.png "Invite ")  
+ - ![search](../img/interface/chatrooms/search.png "Invite ") search  
+   Search the Chatroom Messages for a keyword  
+ - ![send](../img/interface/chatrooms/send.png "Send Chat Message") send  
+   Send your typed message to the Chatroom
+ 
+<a href="../../img/interface/chatrooms/chat_usage.png" target="_blank">![chatroom usage](../img/interface/chatrooms/chat_usage.png "Chatroom usage")</a>  
+ 
+####Participant List
+All Members of the Chatroom are shown in the list at the left. 
+
+Status Button  
+The coloured circle shows the status of the participant  
+
+ - ![Yellow - Your Own ID](../img/interface/chatrooms/bullet_yellow.png "Your own Identity") Yellow  
+   This is your own identity
+ - ![Active ID](../img/interface/chatrooms/bullet_green.png "Active ID")Green  
+   Active, this Identity has been in use in the last 300 seconds
+ - ![Grey - not active](../img/interface/chatrooms/bullet_grey.png "Not active Identity")Grey  
+   This Identity is not active in this chatroom.  
+
+![Participant List](../img/interface/chatrooms/member_list.png "Participant List")
+
+Hover with your mouse over the ID and some information will pop up in the tooltip. 
+![Chat ID Tooltip](../img/interface/chatrooms/id_tooltip.png "Tooltip for Chat ID")
+
+When you right-click on the Chat ID, an additional context menu will popup and show some actions. 
+
+ - Start private chat  
+   Opens a distant chat to that person  
+ - Send Message  
+   Opens the message composer to send a mail to this Identity
+ - Sort by Activity  
+ - Sort by Name  
+ - Mute participant  
+   Mute the participant in this room
+ - Ban this person (sets negative opinion)  
+   Bans the whole Identity. Does not display Content (Forum posts, Channel messages, posted links, ... ) 
+   neither does the content of this person get's forwarded to friends anymore. 
+   
+![Context Menu Chat ID](../img/interface/chatrooms/menu_chat_id.png "Right Click Menu Chat ID")
+
 
 ##Messages
 ![messages interface](../img/interface/messages.png "Messages")  
