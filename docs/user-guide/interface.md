@@ -365,26 +365,6 @@ Once the lobby is created you can invite other friends from the friends tab.
   
 ![empty chatrooms](../img/interface/chatrooms/empty_chat.png "Empty Chatrooms")  
 
-Join existing chatrooms by double clicking or right-clicking.
-
-Right click offers following possibilities
-
- - Enter this lobby  
-   Joins the Chatroom  
- - Add Auto Subscribe  
-   Joins the Chatroom and adds auto subscribe. So this Chatroom will be 
-   joined also after each restart again.  
- - Columns  
-    - Count  
-      Shows a count of members in this Chatroom  
-    - Topic  
-      Displays the Topic  
-    - Subscribed  
-      If you are already subscribed or not  
-      
-![enter chatrooms](../img/interface/chatrooms/enter_chat.png "Enter Chatrooms")  
-
-
 ###Chat Room Creation
 
 Click the ![add ID](../img/interface/people/add_id.png "Create New Identity") 
@@ -417,10 +397,32 @@ The choosen contacts will be invited to the join the chatroom with an identity.
 
 ![chatroom invitation](../img/interface/chatrooms/chat_invitation.png "Chatroom Invitation")  
 
-The Friend Bunny has joind the newly created Chatroom. Now all Friends of 
+The Friend Bunny has joined the newly created Chatroom and starts chatting. Now all Friends of 
 The Public Chatroom propagates to all Friends of Bunny and they can join as well.  
 ![chatroom established](../img/interface/chatrooms/chat_established.png "Chatroom established")  
 
+###Join Existing Chatrooms
+
+Join existing chatrooms by double clicking or right-clicking.
+
+![Join Chatroom](../img/interface/chatrooms/join_chat.png "Join Chatroom")
+
+Right click offers following possibilities
+
+ - Enter this lobby  
+   Joins the Chatroom  
+ - Add Auto Subscribe  
+   Joins the Chatroom and adds auto subscribe. So this Chatroom will be 
+   joined also after each restart again.  
+ - Columns  
+    - Count  
+      Shows a count of members in this Chatroom  
+    - Topic  
+      Displays the Topic  
+    - Subscribed  
+      If you are already subscribed or not  
+      
+![enter chatrooms](../img/interface/chatrooms/enter_chat.png "Enter Chatrooms")  
 
 ###Chat Room Usage
 Note: For the chat lobbies to work properly, your computer needs be on time. So check your systems clock!
@@ -462,7 +464,7 @@ Note: For the chat lobbies to work properly, your computer needs be on time. So 
 ####Participant List
 All Members of the Chatroom are shown in the list at the left. 
 
-Status Button  
+#####Chat Status Button  
 The coloured circle shows the status of the participant  
 
  - ![Yellow - Your Own ID](../img/interface/chatrooms/bullet_yellow.png "Your own Identity") Yellow  
@@ -474,9 +476,11 @@ The coloured circle shows the status of the participant
 
 ![Participant List](../img/interface/chatrooms/member_list.png "Participant List")
 
+#####Chat ID Tooltip
 Hover with your mouse over the ID and some information will pop up in the tooltip. 
 ![Chat ID Tooltip](../img/interface/chatrooms/id_tooltip.png "Tooltip for Chat ID")
 
+#####Chat ID Actions
 When you right-click on the Chat ID, an additional context menu will popup and show some actions. 
 
  - Start private chat  
