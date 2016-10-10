@@ -448,7 +448,7 @@ Note: For the chat lobbies to work properly, your computer needs be on time. So 
  - ![send](../img/interface/chatrooms/send.png "Send Chat Message") send  
    Send your typed message to the Chatroom
  
-<a href="../../img/interface/chatrooms/chat_usage.png" target="_blank">![chatroom usage](../img/interface/chatrooms/chat_usage.png "Chatroom usage")</a>  
+![chatroom usage](../img/interface/chatrooms/chat_usage.png "Chatroom usage")  
  
 ####Participant List
 All Members of the Chatroom are shown in the list at the left. 
@@ -513,11 +513,63 @@ Channel posts get deleted after 4 months.
 
 ##Forums
 ![forums interface](../img/interface/forums.png "Forums")  
-RetroShare Forums look like internet forums, but they wirk in a decentralized way. 
+RetroShare Forums look like internet forums, but they work in a decentralized way. 
 
-You see forums your friends are subscribed to, and you forward subscribed forums to your friends. This automatically promotes interresting forums in the network. 
+<a href="../../img/interface/forums/empty_forum.png" target="_blank">![empty forums](../img/interface/forums/empty_forum.png "Empty Forums")</a>  
 
+You see forums your friends are subscribed to, and you forward subscribed forums to your friends. 
+This automatically promotes interresting forums in the network. 
 Forum messages get deleted after 12 months. 
+
+###Forum Settings
+
+ - Name  
+   Name of the Forum
+ - Owner
+   Owner of the Forum
+ - Add Forum Admins
+   Key recipients can publish to restricted-type group and can view and 
+   publish for private-type channels. 
+
+####Forum Message Distribution
+
+ - Public  
+   Message will spread way beyond your friend nodes, as long as people 
+   subscribe to the channel/forum/posted you're creating. 
+ - Restricted to Circle  
+   Message will spread among RetroShare nodes that host one of the 
+   identities listed as member of the circle and who also subscribe the media. 
+   Only these nodes will be able to see that this forum/channel/posted media exists. 
+ - Only For Your Friends  
+   Messages will only be distributed to the selected subset of your 
+   friend nodes. They will not forward messages with each other, but 
+   only use your own node as a central hub to distribute them. 
+   
+####Description  
+
+
+  
+####Spam Protection
+ - Posts permissions  
+   This combo box allows you to choose how posts are handled depending 
+   on the node the poster belongs to. 
+   - All allowed
+     all posts are treated equally
+   - Defavor posts from unsigned IDs  
+     anonymous IDs will require a reputation of 0.4 to be received/forwarded. 
+   - Defavor posts from unsigned IDs and IDs from unknown nodes
+     anonymous IDs and IDs signed by unknown RetroShare nodes will require 
+     a reputation of 0.4 to be received/forwarded. 
+     
+![posts permissions](../img/interface/forums/posts_permission.png "Forums Post Permissions")  
+
+###Create Forums  
+
+![create forums](../img/interface/forums/create_forum.png "Create Forums")  
+ 
+
+
+
 
 ##Posted
 ![posted interface](../img/interface/posted.png "Posted")  
@@ -541,11 +593,14 @@ Posted links get deleted after 4 months.
 
 
 ##Options
-![ interface](../img/interface/.png "") 
 
-The [Options/Settings](/user-guide/settings/) are explained more detailed in the Settings. 
+![settings interface](../img/interface/options.png "Options/Settings")  
 
-![settings interface](../img/interface/settings.png "Options/Settings")  
+
+The Options/Settings are explained more detailed [here](/user-guide/settings/). 
+
+![ interface](../img/interface/settings.png "") 
+
 
 ##About
 ![about interface](../img/interface/info.png "About")  
