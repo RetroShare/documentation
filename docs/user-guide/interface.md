@@ -523,24 +523,27 @@ Forum messages get deleted after 12 months.
 
 ###Forum Settings
 
+![create forums](../img/interface/forums/create_forum.png "Create Forums")  
+
+
  - Name  
    Name of the Forum
- - Owner
+ - Owner  
    Owner of the Forum
- - Add Forum Admins
+ - Add Forum Admins  
    Key recipients can publish to restricted-type group and can view and 
    publish for private-type channels. 
 
 ####Forum Message Distribution
 
- - Public  
+ - ![public Forum](../img/interface/forums/network-public.png "Public Forum") Public  
    Message will spread way beyond your friend nodes, as long as people 
    subscribe to the channel/forum/posted you're creating. 
- - Restricted to Circle  
+ - ![Circle Restricted Forum](../img/interface/forums/circles.png "Circle Restricted Forum") Restricted to Circle  
    Message will spread among RetroShare nodes that host one of the 
    identities listed as member of the circle and who also subscribe the media. 
    Only these nodes will be able to see that this forum/channel/posted media exists. 
- - Only For Your Friends  
+ - ![Network Forum](../img/interface/forums/network.png "Only Friends Forum") Only For Your Friends  
    Messages will only be distributed to the selected subset of your 
    friend nodes. They will not forward messages with each other, but 
    only use your own node as a central hub to distribute them. 
@@ -550,24 +553,85 @@ Forum messages get deleted after 12 months.
 
   
 ####Spam Protection
+![posts permissions](../img/interface/forums/posts_permission.png "Forums Post Permissions")  
+
  - Posts permissions  
    This combo box allows you to choose how posts are handled depending 
    on the node the poster belongs to. 
-   - All allowed
-     all posts are treated equally
-   - Defavor posts from unsigned IDs  
-     anonymous IDs will require a reputation of 0.4 to be received/forwarded. 
-   - Defavor posts from unsigned IDs and IDs from unknown nodes
-     anonymous IDs and IDs signed by unknown RetroShare nodes will require 
-     a reputation of 0.4 to be received/forwarded. 
-     
-![posts permissions](../img/interface/forums/posts_permission.png "Forums Post Permissions")  
+ - All allowed  
+   all posts are treated equally
+ - Defavor posts from unsigned IDs  
+   anonymous IDs will require a reputation of 0.4 to be received/forwarded. 
+ - Defavor posts from unsigned IDs and IDs from unknown nodes  
+   anonymous IDs and IDs signed by unknown RetroShare nodes will require 
+   a reputation of 0.4 to be received/forwarded. 
+
 
 ###Create Forums  
 
-![create forums](../img/interface/forums/create_forum.png "Create Forums")  
- 
+click the ![create forum button](../img/interface/forums/add.png "Create Forum Button") 
+button, and fill in the name and select a Message Distribution Type. 
 
+![create forums](../img/interface/forums/friendship.png "Create Forums") 
+ 
+Your newly created Forum will be available at ![my forums](../img/interface/forums/folder_blue.png "My Forums") *My Forums*  
+![my forums](../img/interface/forums/my_friendship_forum.png "My Forums")  
+
+Empty new Forum without any Threads  
+![Post New Thread](../img/interface/forums/create_thread.png "Post New Thread")  
+
+
+###Post new Thread  
+
+
+click on the ![Post New Thread](../img/interface/forums/mail_new.png "Post New Thread") 
+icon to create a new post.  
+
+![Edit New Thread](../img/interface/forums/start_new_thread.png "Edit New Thread")  
+
+![Thread Created](../img/interface/forums/thread_created.png "Thread Created")  
+
+
+###Reply a Post  
+
+click on the ![reply post](../img/interface/forums/mail_reply.png "Reply Post") 
+icon to create a new post.  
+
+![Reply to Post](../img/interface/forums/reply_post.png "Reply to Post")  
+
+![Reply](../img/interface/forums/reply.png "Reply")  
+
+
+![Thread Answered](../img/interface/forums/thread_reply.png "Thread Answered")  
+
+
+###Forum Details  
+
+ - ![my forums](../img/interface/forums/folder_blue.png "My Forums") My Forums  
+ - ![subscribed forums](../img/interface/forums/folder_red.png "Subscribed Forums") Subscribed Forums   
+ - ![Popular Forums](../img/interface/forums/folder_green.png "Popular Forums") Popular Forums  
+ - ![other Forums](../img/interface/forums/folder_yellow.png "Other Forums") Other Forums  
+ 
+ 
+ - ![post thread](../img/interface/forums/mail_new.png "Post Thread") Post Thread  
+ - Thread Title   
+ - Forum View  
+   - Last Post  
+   - Threaded View  
+   - Flat View  
+   ![forum view](../img/interface/forums/forum_view.png "Forum View")
+ - ![Post Reply](../img/interface/forums/mail_reply.png "Post Reply") Post Reply  
+ - ![Previous Thread](../img/interface/forums/back.png "Previous Thread") Previous Thread  
+ - ![Next Thread](../img/interface/forums/forward.png "Next Thread") Next Thread  
+ - ![Download All](../img/interface/forums/down.png "Download All") Download All  
+ - ![Next unread](../img/interface/forums/next_unread.png "Next unread") Next unread  
+ - ![Change Forum Sort](../img/interface/forums/looknfeel.png "Forum Sort") Forum Sort  
+ 
+    - Sort by Name  
+    - Sort by Popularity  
+    - Sort by Last Post  
+    - Sort by Posts  
+      ![forums Sort](../img/interface/forums/sort_forums.png "Forum Sort")
 
 
 
