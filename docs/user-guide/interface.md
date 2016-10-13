@@ -278,7 +278,7 @@ Columns from the Download Tab ![downlaod tab](../img/interface/filesharing/downl
  - Path  
    destination folder
 
-###Multiple Sources  
+####Multiple Sources  
 Multi Sources are shown in the Sources Column and can be 
 displayed in detail by clicking the dropdown button
 
@@ -286,7 +286,7 @@ displayed in detail by clicking the dropdown button
  - ![yellow tunnel](../img/interface/filesharing/yellow_source.png "inactive Tunnel") no data currently transferring  
 
 
-###Context Menu  
+####Context Menu  
 By right-clicking on the download, the Context menu provides actions to the user.
 
 ![context menu download](../img/interface/filesharing/context_menu.png "Download Context Menu") 
@@ -331,6 +331,95 @@ You can share files using the "Directory Plus" icon from the left side bar. Thes
 
 The search tab reports files from your friends' file lists, and distant files that can be reached anonymously using the multi-hop tunneling system. 
 
+###Upload
+<a href="../../img/interface/filesharing/upload.png" target="_blank">![upload](../img/interface/filesharing/upload.png "Upload")</a>  
+
+Columns from the Upload Tab ![uplaod tab](../img/interface/filesharing/upload_tab.png "Upload Tab")  
+
+ - Name  
+   Name of the uploaded File  
+ - Size  
+   Size of the uploaded File  
+ - Transferred  
+   Already transferred File
+ - Speed  
+   Speed of the upload  
+ - Progress  
+   Progress Map of the transferred Chunks  
+ - Status  
+   Status of the Upload  
+ - Peer  
+   virtual peer  
+ - Hash  
+   Hash of the uploaded File  
+ - UserID  
+   UserID of the Peer  
+
+###File Search
+![file search](../img/interface/filesharing/file_search_tab.png "File Search") 
+
+<a href="../../img/interface/filesharing/file_search.png" target="_blank">![upload](../img/interface/filesharing/file_search.png "File Search")</a>  
+
+RetroShare can search in the Network for shared files. 
+ 
+ - Advanced  
+   Add detailed search criterias  
+ - Browsable Files  
+   Search in Browsable shared directories from direct friends  
+ - Distant  
+   Search in Anonymous Shared directories in the network  
+ - Own Files  
+   Search in your own Shared directories   
+ - Clear
+   Clear the search results
+   
+####Search Results  
+ 
+ - Filename 
+   Shows a Mime Type and the File name of the result
+ - Size  
+   Shows the size of the result  
+ - Sources  
+   available sources  
+ - Type
+   Mime Type  
+ - Age  
+   last time seen online  
+ - Hash  
+   SHA1 Hash of the file  
+   
+###Friends Files  
+![Friends Files](../img/interface/filesharing/friends_files.png "Friends Files") 
+When Friends share [directories](../user-guide/settings/#shared-directories) browsable, 
+it's possible to browse them. 
+
+![Browsable Directory](../img/interface/filesharing/browsable_directory.png "Browsable Directory")  
+   
+By right-clicking you can ![download entire folder](../img/interface/filesharing/download_folder.png "download entire folder")  
+
+  - Download  
+    download entire folder structures  
+  - Create **.rscollection**'s  
+    
+The entire Folder structure and the files get downloaded. 
+![Entire Folder downloading](../img/interface/filesharing/folder_download.png "Entire Folder downloading")  
+   
+###My Files
+![my Shared Files](../img/interface/filesharing/my_files_tab.png "My Shared Files")  
+
+By clicking on the ![add share](../img/interface/filesharing/add_share.png "add Share") 
+icon, the Share Manager opens. In the Share Manager it's possible to create 
+virtual Shares for different directories and grant different permission rolls. 
+![share manager](../img/interface/filesharing/share_manager.png "Share Manager")  
+
+For details on permission levels, share flags and share manager please go 
+to [Settings/Directories](../user-guide/settings/#shared-directories).
+
+![my Shared Files](../img/interface/filesharing/my_files.png "My Shared Files")  
+
+
+
+   
 ##Chat Lobbies
 ![chat-lobbies interface](../img/interface/chat-lobbies.png "Chat Lobbies")  
 Chat lobbies are distributed chat rooms, and work pretty much like 
@@ -453,6 +542,8 @@ Note: For the chat lobbies to work properly, your computer needs be on time. So 
 ####Participant List
 All Members of the Chatroom are shown in the list at the left. 
 
+![Participant List](../img/interface/chatrooms/member_list.png "Participant List")
+
 #####Chat Status Button  
 The coloured circle shows the status of the participant  
 
@@ -462,8 +553,6 @@ The coloured circle shows the status of the participant
    Active, this Identity has been in use in the last 300 seconds
  - ![Grey - not active](../img/interface/chatrooms/bullet_grey.png "Not active Identity")Grey  
    This Identity is not active in this chatroom.  
-
-![Participant List](../img/interface/chatrooms/member_list.png "Participant List")
 
 #####Chat ID Tooltip
 Hover with your mouse over the ID and some information will pop up in the tooltip. 
