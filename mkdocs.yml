@@ -15,6 +15,7 @@ pages:
     - Settings: user-guide/settings.md
     - Interface: user-guide/interface.md
     - Plugins: user-guide/plugins.md
+    - rscollection: user-guide/rscollection.md
 - Developer Section:
     - Compilation: developer/compilation.md
     - Coding: developer/coding.md
