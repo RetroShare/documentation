@@ -23,6 +23,7 @@ pages:
     - Topology: concept/topology.md 
 - About: 
     - About: about/about.md
+    - History: about/history.md
     - License: about/license.md
     - Contributing: about/contributing.md
 
