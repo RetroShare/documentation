@@ -1,9 +1,19 @@
 #History of RetroShare 
 
 ##2016
+###31 August 2016
+ - release of [v0.6.1](https://github.com/RetroShare/RetroShare/releases/tag/0.6.1)
 
+###5th February 2016
+ - release of [v0.6.0](https://github.com/RetroShare/RetroShare/releases/tag/v0.6.0)
 
 ##2015
+###August 2015
+Migration from [SourceForge](https://sourceforge.net/projects/retroshare/?source=directory) 
+to [GitHub](https://github.com/RetroShare)  
+
+ - [v0.6.0 RC2](https://github.com/RetroShare/RetroShare/releases/tag/v0.6.0-RC2)
+
 ###26th June 2015
  - 0.6.0-rc2
  
@@ -11,28 +21,41 @@
  - 0.6.0-rc1
 
 ##2014
+![Retroshare Blog Header](../img/history/retroshare-blog-header.png "Retroshare Blog Header")  
 ###11th April 2014 	
  - v0.5.5c
 
 ##2013
+![Retroshare Own Your Net](../img/history/own_your_net.png "Retroshare Own Your Net")  
 ###30th September 2013
- - v0.5.5a
+ - v0.5.5a  
+![Retroshare v0.5 server options](../img/history/v0.5.5_server_options.png "Retroshare v0.5 server options")  
 
 ##2012 
+![Retroshare Instant Messenger](../img/history/retroshare_spacer.png "Retroshare Instant Mesenger")  
 ###27th September 2012
  - 0.5.4a 	
 
 ###9th of February 2012
  - v0.5.3a 
  
-##2011 
+##2011  
+![Retroshare v0.5 icon grey](../img/history/retrosharelogo2.png "Retroshare v0.5 icon grey")  
 ###13th August 2011
  - v0.5.2a
 
 ###13th March 2011
- - v0.5.1a
+ - v0.5.1a  
+
+![Retroshare v0.5.1 network](../img/history/v0.5.1_network.png "Retroshare v0.5.1 network")  
+
+![Retroshare v0.5.1 retroshare friends](../img/history/v0.5.1_retrosharefriends.png "Retroshare v0.5.1 RetroShare Friends")  
+
+![Retroshare v0.5.1 search](../img/history/v0.5.1_retrosharesearch.png "Retroshare v0.5.1 search")  
+
  
 ##2010 
+![Retroshare v0.5 Connected Nodes](../img/history/rs1.png "Retroshare v0.5 Connected Nodes")  
 ###18th April 2010
  - release of RetroShare v0.5.0
 
@@ -42,27 +65,58 @@
 ###14th February 2010
  - v0.5.0 alpha 1
  
+![Retroshare v0.5 Forums](../img/history/v0.5.0.alpha1_retroshareforums.png "Retroshare v0.5 Forums")  
+
+![Retroshare v0.5 plugin color code](../img/history/v0.5.0_alpha_plugins_colorcode.png "Retroshare v0.5 Plugin Color Code")  
+
+![Retroshare v0.5 Solocards](../img/history/v0.5.0_plugins_solocards.png "Retroshare v0.5 Solocards")  
+
+![Retroshare v0.5 Transfers](../img/history/v0.5.0_retrosharetransfers.png "Retroshare v0.5 Transfers")  
+ 
 ##2009
+![Retroshare v0.5 icon blue](../img/history/retrosharelogo1.png "Retroshare v0.5 icon blue")  
 ###28th November 2009
  - retroshare-v0.4.X  
+![Retroshare v0.4 Login Screen](../img/history/v0.4_login.png "Retroshare v0.4 Login Screen")  
 
+ 
 ###13th May 2009
  - RetroLocal_0.4.13a
+
+![Retroshare v0.4.13 main window](../img/history/v0.4.13_mainwindow.png "Retroshare v0.4.13 Main Window")  
+
+![Retroshare v0.4.13 transfer](../img/history/v0.4.13_retrosharetransfer.png "Retroshare v0.4.13 transfer")  
+
 
 ###April 09
 Retroshare development is still active, with ever growing numbers 
 of developers and users. At this point (April 2009) we've had 
 over 50,000 downloads, and are soon to release version v0.4.13. 
+![Retroshare v0.4.11 Forums](../img/history/v0.4.11_retroshareforums.png "Retroshare v0.4 Forums")  
 
-##2008
+##2008  
+![Retroshare v0.4 Splash](../img/history/v0.4_splash.png "Retroshare v0.4 Splash")  
 ###4th August 2008
  - RetroLocal_0.4.09b  
    Single Directory Install
 
+![Retroshare v0.4 Main Window](../img/history/v0.4_mainwindow.png "Retroshare v0.4 Main Window")  
+
+
 ###8th January 2008
  - retroshare-v0.3.50+
 
+![Retroshare v0.3.52](../img/history/v0.3.52_transfer.png "Retroshare v0.3.52 tranfer")  
+
 ##2007
+![Retroshare splash logo](../img/history/retro3.png "Retroshare v0.4 logo")  
+
+![Retroshare logo yin yang](../img/history/rstalk1.png "Retroshare logo yin yang")  
+
+![Retroshare logo yin yang](../img/history/rstalk2.png "Retroshare logo yin yang")  
+
+![Retroshare logo yin yang](../img/history/rstalk3.png "Retroshare logo yin yang")  
+
 ###19th May 2007
  - retroshare-v0.3.0
  
@@ -78,6 +132,9 @@ over 50,000 downloads, and are soon to release version v0.4.13.
  - New GUI is functioning... Took a while. But got there in the end. 
 
 ##2006
+![Retroshare v2.0 Two Pirates using RetroShare](../img/history/rs-img-pirate.png "Retroshare v2.0 Two Pirates using RetroShare")  
+
+![Retroshare logo yin yang](../img/history/logo200.png "Retroshare logo yin yang")  
 ###23rd Nov 2016
  - retroshare-v0.2.1 
 
