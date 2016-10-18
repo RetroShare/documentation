@@ -130,7 +130,7 @@ These builds are released daily and may contain contain bugs.
 ##Gentoo
 ![gentoo logo](../img/install/gentoo_logo.png "Gentoo Install")  
 
-The ebuilds are available [here](https://packages.gentoo.org/packages/net-p2p/retroshare-)
+The ebuilds are available [here](https://packages.gentoo.org/packages/net-p2p/retroshare)
 
 
 ##FreeBSD
