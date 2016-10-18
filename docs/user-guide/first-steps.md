@@ -31,7 +31,7 @@ Enter the values:
  - Password  
    This password protects your private PGP key. 
    It's wise to choose a long password for your GPG-ID, as this also 
-   encrypt's your entire RetroShare directory.  
+   encrypts your entire RetroShare directory.  
  - Node Name ([Location](../user-guide/settings/#public-information))
    Each user can have several Location were RetroShare is running for 
    different devices. 
