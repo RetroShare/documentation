@@ -9,7 +9,6 @@ Links:
  - [Retroshare-0.6.1-Qt4](https://github.com/RetroShare/RetroShare/releases/download/0.6.1/RetroShare-0.6.1-20160903-53e26983-Qt4-setup.exe) Installer  
  - [Retroshare-0.6.1-Qt5](https://github.com/RetroShare/RetroShare/releases/download/0.6.1/RetroShare-0.6.1-20160903-53e26983-Qt5-setup.exe) Installer  
 
-The installers for Windows contains the portable and normal install, and plugins.  
 Checksums: [checksum.txt](https://github.com/RetroShare/RetroShare/releases/download/0.6.1/chksums.txt.asc)
 
 
