@@ -33,8 +33,8 @@ Enter the values:
    It's wise to choose a long password for your GPG-ID, as this also 
    encrypts your entire RetroShare directory.  
  - Node Name ([Location](../user-guide/settings/#public-information))
-   Each user can have several Location were RetroShare is running for 
-   different devices. 
+   Each user can have several Locations were RetroShare is running on 
+   different devices with the same [GPG-ID](../user-guide/settings/#public-information). 
 
 Move your mouse to create randomness for the Key creation. 
 
