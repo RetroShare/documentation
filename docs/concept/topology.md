@@ -15,8 +15,7 @@ Let's explain the different kinds of networks.
 
 ##History of Network Topology's 
 
-The first architecture of computer networks were **client-server architecture** 
-and **ring**. 
+The first architecture of computer networks was **client-server architecture**. 
 If the central server is offline, the whole network breaks. 
 The military made first thoughts to make the computer network still 
 avaiable in the case of a *first strike* of the opponent. 
@@ -31,14 +30,17 @@ These thoughts have been utilized in the design of the
 [ARPANET](https://en.wikipedia.org/wiki/ARPANET)(1969) which can be seen as a 
 predecessor of the modern internet as we know it. 
 
-The description of Paul Baran has evolved since the 60's 
+The categorization of Paul Baran has evolved since the 60's 
 
 ##Modern Network Topology  
 
 Nowadays the definition have shifted from: 
 
- - *decentralized* -> [federated](../concept/topology/#decentralized-federated-servers)  
- - *distributed* -> [decentralized](/concept/topology/#distributed-decentralized)  
+ - *decentralized* is now more known as [federated](../concept/topology/#federated-servers)  
+ - *distributed* is now known as [decentralized](/concept/topology/#decentralized)  
+    the meaning of distributed is now used for data distribution in 
+    [RAID 0](https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_0) or 
+    [Distributed Computing](https://en.wikipedia.org/wiki/Distributed_computing)  
  
 ![Decentralization today](../img/concept/retroshare-decentralised.png "Decentralization today")  
 <sub>[GSoC2014 Social Network Plugin for RetroShare](http://blog.freifunk.net/2014/gsoc-social-network-plugin-retroshare)</sub>  
@@ -85,7 +87,7 @@ When a third party or the company wants to censor/filter/block parts of
 the communication they can do whenever they want with ease. 
 They have the right to do this, because it's their property.  
 
-##Decentralized -> Federated Servers
+##Federated Servers
 E-Mail is a decentralized network by design. Everyone can run a Mail 
 for it's own purpose. If a single Mail Server is offline for whatever 
 reason, the other Mail Server's will still work and send receive mails. 
@@ -117,7 +119,7 @@ them to spy on their users.
 Other mail providers do fully comply with the orders and 
 hand over the infrastructure as a whole to the surveilance state. 
 
-##Distributed -> Decentralized  
+##Decentralized  
 
 ###Torrent  
 ![fully connected network](../img/concept/fully_connected.png "Fully Connected Network")  
