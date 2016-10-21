@@ -16,6 +16,8 @@ pages:
     - Interface: user-guide/interface.md
     - Plugins: user-guide/plugins.md
     - rscollection: user-guide/rscollection.md
+- Tutorial: 
+    - Location Creation: tutorial/location.md    
 - Developer Section:
     - Compilation: developer/compilation.md
     - Coding: developer/coding.md
