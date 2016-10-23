@@ -131,8 +131,8 @@ look different to a normal setting.
  - Known / Previous IPs are disabled   
  - external IP Checks are disabled  
  
-![network config](../img/tutorial/tor/network_config.png "Network Config")  
-
+<a href="../../img/tutorial/tor/network_config.png" target="_blank">![network config](../img/tutorial/tor/network_config.png "Network Config")</a>  
+<sub>click to enlarge</sub>  
 
 ###Hidden Service Configuration  
 ####Outgoing Connections
@@ -157,5 +157,22 @@ look different to a normal setting.
 
 For an easier usage, both ports should be used symmetrically.  
    
-![Hidden Service Config](../img/tutorial/tor/hidden_service_config.png "Hidden Service Config")  
+<a href="../../img/tutorial/tor/hidden_service_config.png" target="_blank">![Hidden Service Config](../img/tutorial/tor/hidden_service_config.png "Hidden Service Config")</a>  
+<sub>click to enlarge</sub>
+##Tor Usage  
 
+###Normal Nodes
+Normal Nodes may also use Tor Socks Proxy for outgoing connections 
+to Hidden Services.  
+
+![Alice Incoming & Outgoing Connection](../img/tutorial/tor/alice_in_out.png "Alice Incoming & Outgoing Connections")  
+<sub>Outgoing Tor Connections and Incoming&Outgoing TCP Connections</sub>
+
+###Hidden Nodes
+Outgoing connections are always routed through the local Tor Socks Proxy to .onion addresses. 
+All Traffic is routed inside the Tor Network. Hidden Nodes cannot connect 
+to IPv4/Normal Nodes, because Tor-Exit nodes are not used. 
+Though the other way Normal Nodes can reach Hidden Nodes through Tor Socks Proxy. 
+
+![Revy Incoming Connections](../img/tutorial/tor/revy_out.png "Revy Incoming Connections")  
+<sub>Tor connections incoming and outgoing from and to Hidden Nodes.</sub>
