@@ -17,7 +17,8 @@ pages:
     - Plugins: user-guide/plugins.md
     - rscollection: user-guide/rscollection.md
 - Tutorial: 
-    - Location Creation: tutorial/location.md    
+    - Location Creation: tutorial/location.md  
+    - Hidden Tor Node: tutorial/tor-hidden-rs-node.md  
 - Developer Section:
     - Compilation: developer/compilation.md
     - Coding: developer/coding.md
