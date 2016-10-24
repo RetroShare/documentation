@@ -159,7 +159,7 @@ For an easier usage, both ports should be used symmetrically.
    
 <a href="../../img/tutorial/tor/hidden_service_config.png" target="_blank">![Hidden Service Config](../img/tutorial/tor/hidden_service_config.png "Hidden Service Config")</a>  
 <sub>click to enlarge</sub>
-##Tor Usage  
+##Tor Proxy Usage  
 
 ###Normal Nodes
 Normal Nodes may also use Tor Socks Proxy for outgoing connections 
