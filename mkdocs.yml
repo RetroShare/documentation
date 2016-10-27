@@ -17,7 +17,7 @@ pages:
     - Plugins: user-guide/plugins.md
     - rscollection: user-guide/rscollection.md
 - Tutorial: 
-    - Location Creation: tutorial/location.md  
+    - Second Location Creation: tutorial/location.md  
     - Tor Hidden Node: tutorial/tor-hidden-rs-node.md  
     - I2P Hidden Node: tutorial/i2p-hidden-rs-node.md  
 - Developer Section:
