@@ -589,16 +589,94 @@ Generally, you mey use messages to recommended files to your friends by pasting 
 
 ##Channels
 ![channels interface](../img/interface/channels.png "Channels")  
-Channels allow sou to paost data (e.g. movies, music) that will spread the network
+Channels allow you to post data (e.g. movies, music) that will spread the network. 
 
 You can see the channels your friends are subscribed to, and you automatically forward subscribed channels to your friends. 
 This promotes good channels in the network. 
 
-Only the channel's creator can post on that channel. Other peers in the network can only read from it, unless the channel is private. You can however share the posting rights or the reading rights with friend RetroShare nodes. 
+Only the channel's creator can post on that channel. Other peers in the 
+network can only read from it, unless the channel is private. You can 
+however share the posting rights or the reading rights with friend RetroShare nodes. 
 
-Channels can be made anonymous, or attached to a RetroShare identity so that readers can contact you if needed. Enable "Allow Comments" if you want to let users comment on your posts. 
+Channels can be made anonymous, or attached to a RetroShare identity so 
+that readers can contact you if needed. Enable "Allow Comments" if you 
+want to let users comment on your posts. 
 
 Channel posts get deleted after 4 months. 
+
+###Create a Channel
+When RetroShare starts, there are no Channels available initially. 
+![Channels interface](../img/interface/channels/no_channels.png "Empty Channels")  
+
+To Create a new Channel click on the 
+![Create Channel](../img/interface/channels/create_channel.png "Create Channel") 
+Create Button. 
+
+![Initial Channel](../img/interface/channels/initial_channel.png "Initial Channel")  
+
+Following Settings can be done for Channels  
+
+ - Name  
+   Name of the Channel  
+ - Icon  
+   An Icon which will be shown  
+ - Owner  
+   Choose a [GXS-ID](../user-guide/interface/#identities) Identity to have 
+   the Channel signed.  
+ - Message Distribution  
+    - ![public Forum](../img/interface/channels/network-public.png "Public Forum") Public  
+      Message will spread way beyond your friend nodes, as long as people 
+      subscribe to the channel/forum/posted you're creating. 
+    - ![Circle Restricted Forum](../img/interface/channels/circles.png "Circle Restricted Forum") Restricted to Circle  
+      Message will spread among RetroShare nodes that host one of the 
+      identities listed as member of the circle and who also subscribe the media. 
+      Only these nodes will be able to see that this forum/channel/posted media exists. 
+    - ![Network Forum](../img/interface/channels/network.png "Only Friends Forum") Only For Your Friends  
+      Messages will only be distributed to the selected subset of your 
+      friend nodes. They will not forward messages with each other, but 
+      only use your own node as a central hub to distribute them. 
+ - Description  
+ - Comments 
+    - Allow Comments  
+    - No Comments  
+
+![New Channel](../img/interface/channels/new_channel.png "Empty new Channel")  
+
+The newly created Channel will be shared to your friends. They can subscribe it 
+and re-share it to their friends.  
+
+![Created Channel](../img/interface/channels/created_channel.png "Created Channel")  
+
+###Subscribe a Channel
+When your friends share a channel to you, it will be available in Popular Channels 
+or Other Channels. 
+![Subcribe Channel](../img/interface/channels/subscribe_channel.png "Subscribe Channel")  
+
+Rightclick the Channel and choose the 
+![Subcribe Channel](../img/interface/channels/add.png "Subscribe Channel") 
+Subscribe Button in the context menu.  
+![Subcribed Channel](../img/interface/channels/subscribed_channel.png "Subscribed Channel")  
+
+###Post to Channel  
+Click the ![Post Channel Message](../img/interface/channels/channel_post_item.png "Post Channel Message") 
+*Post to Channel* Button to create a new Post. 
+![Empty Channel](../img/interface/channels/empty_posts.png "Empty Channel") 
+
+![Empty Post](../img/interface/channels/empty_post.png "Empty Post") 
+
+
+Set the title, a description, maybe an icon and attach the files you want to 
+share in your channel. 
+
+![Channel Posts Details](../img/interface/channels/post_details.png "Channel Posts Details")  
+
+![Posts Attachments](../img/interface/channels/post_details_attachments.png "Posts Attachments")  
+When you save your Channel Posts they should line up and get transfered to 
+yoru friends.  
+
+![Three Channel Posts](../img/interface/channels/three_posts.png "Three Channel Posts")  
+
+
 
 ##Forums
 ![forums interface](../img/interface/forums.png "Forums")  
