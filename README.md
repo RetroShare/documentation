@@ -1,6 +1,6 @@
 # RetroShare Documentation
 
-The documentation is available at [RetroShare Documentation](http://docu.retroshare.net/).
+The documentation is available at [RetroShare Documentation](http://docs.retroshare.net/).
 
 [![Documentation Status](https://readthedocs.org/projects/retroshare/badge/?version=latest)](http://retroshare.readthedocs.io/en/latest/?badge=latest) 
 
@@ -11,7 +11,7 @@ The documentation is available at [RetroShare Documentation](http://docu.retrosh
 - The documentation can be edited by everyone with a GitHub Account
   - edit manually online at GitHub 
   - fork the Repository and create it offline
-- When the Pull Request is merged, the documentation is available seconds later at http://docu.retroshare.net/
+- When the Pull Request is merged, the documentation is available seconds later at http://docs.retroshare.net/
 
 ##Contribute
 
