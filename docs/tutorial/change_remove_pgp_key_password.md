@@ -1,10 +1,12 @@
 #Change or Remove pgp password from the pgp key in retroshare secret keyring
 
 copy keyrings before editing them
+
         $cp -r ~/.retroshare/pgp ~/.retroshare/pgp.orig
 
 
 list keys to choose which one to edit and get the user-id
+
         $gpg --homedir ~/.retroshare/pgp/ --keyring retroshare_public_keyring.gpg --secret-keyring retroshare_secret_keyring.gpg -list-secret-keys
 
 edit the key
@@ -32,4 +34,5 @@ edit the key
 
 
 if everything is ok delete the copy
+
         $rm -r ~/.retroshare/pgp.orig
