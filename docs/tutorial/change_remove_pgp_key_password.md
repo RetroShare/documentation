@@ -7,11 +7,11 @@ copy keyrings before editing them
 
 list keys to choose which one to edit and get the user-id
 
-        $gpg --homedir ~/.retroshare/pgp/ --keyring retroshare_public_keyring.gpg --secret-keyring retroshare_secret_keyring.gpg -list-secret-keys
+        $gpg --openpgp --homedir ~/.retroshare/pgp/ --keyring retroshare_public_keyring.gpg --secret-keyring retroshare_secret_keyring.gpg -list-secret-keys
 
 edit the key
 
-        $gpg --homedir ~/.retroshare/pgp/ --keyring retroshare_public_keyring.gpg --secret-keyring retroshare_secret_keyring.gpg --edit-key <<user-id>>
+        $gpg --openpgp --homedir ~/.retroshare/pgp/ --keyring retroshare_public_keyring.gpg --secret-keyring retroshare_secret_keyring.gpg --edit-key <<user-id>>
 
         gpg>passwd
 
