@@ -20,6 +20,7 @@ pages:
     - Second Location Creation: tutorial/location.md  
     - Tor Hidden Node: tutorial/tor-hidden-rs-node.md  
     - I2P Hidden Node: tutorial/i2p-hidden-rs-node.md  
+    - Update Password: tutorial/change_remove_pgp_key_password.md
 - Developer Section:
     - Compilation: developer/compilation.md
     - Coding: developer/coding.md
