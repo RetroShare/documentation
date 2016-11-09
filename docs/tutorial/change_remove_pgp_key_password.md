@@ -1,4 +1,4 @@
-#Change or Remove password from the pgp key in retroshare secret keyring
+#Change or Remove password from a pgp secret key in retroshare secret keyring
 
 copy keyrings before editing them
 
