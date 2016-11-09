@@ -5,7 +5,7 @@ copy keyrings before editing them
         $cp -r ~/.retroshare/pgp ~/.retroshare/pgp.orig
 
 
-list keys to choose which one to edit and get the user-id
+list secret keys to choose which one to edit and get the user-id
 
         $gpg --openpgp --homedir ~/.retroshare/pgp/ --keyring retroshare_public_keyring.gpg --secret-keyring retroshare_secret_keyring.gpg -list-secret-keys
 
