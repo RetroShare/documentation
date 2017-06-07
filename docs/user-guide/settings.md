@@ -133,7 +133,7 @@ You can separately setup share flags for each shared directory in the shared fil
    How many downloads are allowed at the same time.  
  - Default chunk strategy  
    ![chunk strategy](../img/settings/chunk_strategy.png "Chunk Strategy")  
-   Also known as ![https://en.wikipedia.org/wiki/Segmented_file_transfer](Segmented file transfer) or swarming. With the following settings the behaviour can be influenced to fit your needs.  
+   Also known as [Segmented file transfer](https://en.wikipedia.org/wiki/Segmented_file_transfer) or swarming. With the following settings the behaviour can be influenced to fit your needs.  
     - **Streaming** causes the transfer to request 1MB file chunks in increasing order, faciliating preview while downloading.
     - **Random** is purely random and favors swarming behaviour at best. 
     - **Progressive** is a compromise, selecting the next chunk at random within less than 50 MB after the end of the partial file. That allows some randomness while preventing large empty file initialization times.  
