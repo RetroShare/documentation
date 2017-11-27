@@ -27,7 +27,7 @@ Step by Step Guide.
 
  
 
-On your Fist Node, Go to Settings  
+On your First Node, Go to Settings  
 
 ![settings button](../img/tutorial/settings_button.png "Settings Button")  
 
