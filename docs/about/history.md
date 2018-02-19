@@ -1,197 +1,199 @@
-#History of RetroShare 
+# History of RetroShare
 
-##2016
-###31 August 2016
+## 2016
+### 31 August 2016
  - release of [v0.6.1](https://github.com/RetroShare/RetroShare/releases/tag/0.6.1)
 
-###5th February 2016
+### 5th February 2016
  - release of [v0.6.0](https://github.com/RetroShare/RetroShare/releases/tag/v0.6.0)
 
-##2015
-###August 2015
-Migration from [SourceForge](https://sourceforge.net/projects/retroshare/?source=directory) 
-to [GitHub](https://github.com/RetroShare)  
+## 2015
+### August 2015
+Migration from [SourceForge](https://sourceforge.net/projects/retroshare/?source=directory)
+to [GitHub](https://github.com/RetroShare)
 
  - [v0.6.0 RC2](https://github.com/RetroShare/RetroShare/releases/tag/v0.6.0-RC2)
 
-###26th June 2015
+### 26th June 2015
  - 0.6.0-rc2
  
-###10th June 2015
+### 10th June 2015
  - 0.6.0-rc1
 
-##2014
-![Retroshare Blog Header](../img/history/retroshare-blog-header.png "Retroshare Blog Header")  
+## 2014
+![Retroshare Blog Header](../img/history/retroshare-blog-header.png "Retroshare Blog Header")
 ###11th April 2014 	
  - v0.5.5c
 
-##2013
-![Retroshare Own Your Net](../img/history/own_your_net.png "Retroshare Own Your Net")  
-###30th September 2013
- - v0.5.5a  
-![Retroshare v0.5 server options](../img/history/v0.5.5_server_options.png "Retroshare v0.5 server options")  
+## 2013
+![Retroshare Own Your Net](../img/history/own_your_net.png "Retroshare Own Your Net")
 
-##2012 
-![Retroshare Instant Messenger](../img/history/retroshare_spacer.png "Retroshare Instant Mesenger")  
-###27th September 2012
- - 0.5.4a 	
+### 30th September 2013
+ - v0.5.5a
+![Retroshare v0.5 server options](../img/history/v0.5.5_server_options.png "Retroshare v0.5 server options")
+
+## 2012
+![Retroshare Instant Messenger](../img/history/retroshare_spacer.png "Retroshare Instant Mesenger")
+
+### 27th September 2012
+ - 0.5.4a
 
 ###9th of February 2012
- - v0.5.3a 
+ - v0.5.3a
  
-##2011  
-![Retroshare v0.5 icon grey](../img/history/retrosharelogo2.png "Retroshare v0.5 icon grey")  
-###13th August 2011
+## 2011  
+![Retroshare v0.5 icon grey](../img/history/retrosharelogo2.png "Retroshare v0.5 icon grey")
+
+### 13th August 2011
  - v0.5.2a
 
-###13th March 2011
- - v0.5.1a  
+### 13th March 2011
+ - v0.5.1a
 
-![Retroshare v0.5.1 network](../img/history/v0.5.1_network.png "Retroshare v0.5.1 network")  
+![Retroshare v0.5.1 network](../img/history/v0.5.1_network.png "Retroshare v0.5.1 network")
 
-![Retroshare v0.5.1 retroshare friends](../img/history/v0.5.1_retrosharefriends.png "Retroshare v0.5.1 RetroShare Friends")  
+![Retroshare v0.5.1 retroshare friends](../img/history/v0.5.1_retrosharefriends.png "Retroshare v0.5.1 RetroShare Friends")
 
-![Retroshare v0.5.1 search](../img/history/v0.5.1_retrosharesearch.png "Retroshare v0.5.1 search")  
+![Retroshare v0.5.1 search](../img/history/v0.5.1_retrosharesearch.png "Retroshare v0.5.1 search")
 
  
-##2010 
-![Retroshare v0.5 Connected Nodes](../img/history/rs1.png "Retroshare v0.5 Connected Nodes")  
-###18th April 2010
+## 2010
+![Retroshare v0.5 Connected Nodes](../img/history/rs1.png "Retroshare v0.5 Connected Nodes")
+### 18th April 2010
  - release of RetroShare v0.5.0
 
-###22nd March 2010
+### 22nd March 2010
  - v0.5.0 alpha 2
 
-###14th February 2010
+### 14th February 2010
  - v0.5.0 alpha 1
  
-![Retroshare v0.5 Forums](../img/history/v0.5.0.alpha1_retroshareforums.png "Retroshare v0.5 Forums")  
+![Retroshare v0.5 Forums](../img/history/v0.5.0.alpha1_retroshareforums.png "Retroshare v0.5 Forums")
 
-![Retroshare v0.5 plugin color code](../img/history/v0.5.0_alpha_plugins_colorcode.png "Retroshare v0.5 Plugin Color Code")  
+![Retroshare v0.5 plugin color code](../img/history/v0.5.0_alpha_plugins_colorcode.png "Retroshare v0.5 Plugin Color Code")
 
-![Retroshare v0.5 Solocards](../img/history/v0.5.0_plugins_solocards.png "Retroshare v0.5 Solocards")  
+![Retroshare v0.5 Solocards](../img/history/v0.5.0_plugins_solocards.png "Retroshare v0.5 Solocards")
 
-![Retroshare v0.5 Transfers](../img/history/v0.5.0_retrosharetransfers.png "Retroshare v0.5 Transfers")  
+![Retroshare v0.5 Transfers](../img/history/v0.5.0_retrosharetransfers.png "Retroshare v0.5 Transfers")
  
-##2009
-![Retroshare v0.5 icon blue](../img/history/retrosharelogo1.png "Retroshare v0.5 icon blue")  
-###28th November 2009
- - retroshare-v0.4.X  
-![Retroshare v0.4 Login Screen](../img/history/v0.4_login.png "Retroshare v0.4 Login Screen")  
-
+## 2009
+![Retroshare v0.5 icon blue](../img/history/retrosharelogo1.png "Retroshare v0.5 icon blue")
+### 28th November 2009
+ - retroshare-v0.4.X
+![Retroshare v0.4 Login Screen](../img/history/v0.4_login.png "Retroshare v0.4 Login Screen")
  
-###13th May 2009
+### 13th May 2009
  - RetroLocal_0.4.13a
 
-![Retroshare v0.4.13 main window](../img/history/v0.4.13_mainwindow.png "Retroshare v0.4.13 Main Window")  
+![Retroshare v0.4.13 main window](../img/history/v0.4.13_mainwindow.png "Retroshare v0.4.13 Main Window")
 
-![Retroshare v0.4.13 transfer](../img/history/v0.4.13_retrosharetransfer.png "Retroshare v0.4.13 transfer")  
+![Retroshare v0.4.13 transfer](../img/history/v0.4.13_retrosharetransfer.png "Retroshare v0.4.13 transfer")
 
 
-###April 09
+### April 09
 Retroshare development is still active, with ever growing numbers 
 of developers and users. At this point (April 2009) we've had 
-over 50,000 downloads, and are soon to release version v0.4.13. 
-![Retroshare v0.4.11 Forums](../img/history/v0.4.11_retroshareforums.png "Retroshare v0.4 Forums")  
+over 50,000 downloads, and are soon to release version v0.4.13.
+![Retroshare v0.4.11 Forums](../img/history/v0.4.11_retroshareforums.png "Retroshare v0.4 Forums")
 
-##2008  
-![Retroshare v0.4 Splash](../img/history/v0.4_splash.png "Retroshare v0.4 Splash")  
-###4th August 2008
- - RetroLocal_0.4.09b  
+## 2008
+![Retroshare v0.4 Splash](../img/history/v0.4_splash.png "Retroshare v0.4 Splash")
+### 4th August 2008
+ - RetroLocal_0.4.09b
    Single Directory Install
 
-![Retroshare v0.4 Main Window](../img/history/v0.4_mainwindow.png "Retroshare v0.4 Main Window")  
+![Retroshare v0.4 Main Window](../img/history/v0.4_mainwindow.png "Retroshare v0.4 Main Window")
 
 
-###8th January 2008
+### 8th January 2008
  - retroshare-v0.3.50+
 
-![Retroshare v0.3.52](../img/history/v0.3.52_transfer.png "Retroshare v0.3.52 tranfer")  
+![Retroshare v0.3.52](../img/history/v0.3.52_transfer.png "Retroshare v0.3.52 tranfer")
 
-##2007
-![Retroshare splash logo](../img/history/retro3.png "Retroshare v0.4 logo")  
+## 2007
+![Retroshare splash logo](../img/history/retro3.png "Retroshare v0.4 logo")
 
-![Retroshare logo yin yang](../img/history/rstalk1.png "Retroshare logo yin yang")  
+![Retroshare logo yin yang](../img/history/rstalk1.png "Retroshare logo yin yang")
 
-![Retroshare logo yin yang](../img/history/rstalk2.png "Retroshare logo yin yang")  
+![Retroshare logo yin yang](../img/history/rstalk2.png "Retroshare logo yin yang")
 
-![Retroshare logo yin yang](../img/history/rstalk3.png "Retroshare logo yin yang")  
+![Retroshare logo yin yang](../img/history/rstalk3.png "Retroshare logo yin yang")
 
-###19th May 2007
+### 19th May 2007
  - retroshare-v0.3.0
  
-###12th March 2007
+### 12th March 2007
  - Version 0.3.0-pr5 has been placed on the web.
- - This is the first Qt4.0 gui, and is a lot more user friendly than the FLTK gui. This of course came at a cost... lots of hours, and lots of pain trying to get cygwin + retroshare, pthreads, mingw + Qt4.0 all working together. (and 5 times bigger).  
-   But its Done!. This is Pre-Release5, alternatively known as rc1. Please test, and report back. 
+ - This is the first Qt4.0 gui, and is a lot more user friendly than the FLTK gui. This of course came at a cost... lots of hours, and lots of pain trying to get cygwin + retroshare, pthreads, mingw + Qt4.0 all working together. (and 5 times bigger).
+   But its Done!. This is Pre-Release5, alternatively known as rc1. Please test, and report back.
 
-###12th March 2007
- - V0.3.0-PreRelease7 	
+### 12th March 2007
+ - V0.3.0-PreRelease7
 
-###20th Jan 2007
- - New GUI is functioning... Took a while. But got there in the end. 
+### 20th Jan 2007
+ - New GUI is functioning... Took a while. But got there in the end.
 
-##2006
+## 2006
 ![Retroshare v2.0 Two Pirates using RetroShare](../img/history/rs-img-pirate.png "Retroshare v2.0 Two Pirates using RetroShare")  
 
-![Retroshare logo yin yang](../img/history/logo200.png "Retroshare logo yin yang")  
-###23rd Nov 2016
- - retroshare-v0.2.1 
+![Retroshare logo yin yang](../img/history/logo200.png "Retroshare logo yin yang")
+### 23rd Nov 2016
+ - retroshare-v0.2.1
 
-###October 2006
+### October 2006
  - Crypton joins the team, bringing in beginning of Qt GUI,
-   and starting the push towards a new interface. This will a couple of month process, as everything gets bashed around a bit. 
+   and starting the push towards a new interface. This will a couple of month process, as everything gets bashed around a bit.
 
-###17th August 2006
-Version 0.2.0rc4 has been placed on the web. This version brings the following new features:  
- - First release with Web of Trust Authentication!  
- - Downloads are automatically resumed  
- - New Directory search interface.  
+### 17th August 2006
+Version 0.2.0rc4 has been placed on the web. This version brings the following new features:
+ - First release with Web of Trust Authentication!
+ - Downloads are automatically resumed
+ - New Directory search interface.
 
-####v0.2.0 Startup
+#### v0.2.0 Startup
 
 When you first run RetroShare, the Login Window is presented.
 
  - Existing user: then just enter your password.
- - New User: Follow the instructions below. 
+ - New User: Follow the instructions below.
 
 Setting Up a New User
 
-To use RetroShare, you first need to create yourself a Certificate. 
+To use RetroShare, you first need to create yourself a Certificate.
 This is done by:
 
  - Fill in the second half of the form (Only Name and Password are compulsory)
  - Click "Generate Request", and retroShare should start up!. If there is 
- an error, a window will pop-up with instructions on how to fix the problem. 
+ an error, a window will pop-up with instructions on how to fix the problem.
 
-![Retroshare v2.0 History Image Intro StartUp](../img/history/v2_startup.png "Retroshare v2.0 History Image Intro StartUp")  
+![Retroshare v2.0 History Image Intro StartUp](../img/history/v2_startup.png "Retroshare v2.0 History Image Intro StartUp")
 
-####v0.2 Retroshare Connect Window
+#### v0.2 Retroshare Connect Window
 
 This window displays:
 
- - A List of Trusted People (Top Window)  
- - A List of Friends of Your Friends. (Bottom Window)  
+ - A List of Trusted People (Top Window)
+ - A List of Friends of Your Friends. (Bottom Window)
 
 This window allows you to:
 
  - Monitor the Connection Status of all your friends - displayed in the upper window.
- - Enable/Disable each User's Access via the Check Boxes. 
-   The Status Column shows which people are Connected, or Offline. 
+ - Enable/Disable each User's Access via the Check Boxes.
+   The Status Column shows which people are Connected, or Offline.
  - For more Information/Configuration of a Peer, select their certificate, 
    and the press the "Configure Certificate" Button on the right-hand side.
  - Remove a Person from your Trusted List is done by selecting them 
-   from the list, and then clicking on the "Remove Person" Button.  
+   from the list, and then clicking on the "Remove Person" Button.
    They will be moved to the lower, untrusted list.
  - To Add a new Person: Either select their Name in the lower window and 
    then press "Add to Friends", or Add their Certificate, via the Load 
    Certificate Button on the right-hand side. The Certificate will 
    appear in the Trusted Window. Check the AutoConnect button to 
-   enabling sharing with them. 
+   enabling sharing with them.
 
-![Retroshare v2.0 History Image Connect Window](../img/history/v2_connect.png "Retroshare v2.0 History Image Connect Window")  
+![Retroshare v2.0 History Image Connect Window](../img/history/v2_connect.png "Retroshare v2.0 History Image Connect Window")
 
-####v0.2 Search Window
+#### v0.2 Search Window
 
 This allows you to Search the currently connected Peers.
  
@@ -201,23 +203,23 @@ This allows you to Search the currently connected Peers.
    will immediately appear in the File Transfer Window.
  - You can Recommend one of your Own Files (the Ones Marked *Local*) 
    to someone by clicking the "Recommend" Button. This brings up a Message Window:
- - Enter Your Message, Select who you want to send it to, and click "Send". 
-   The Message will be sent instantly to all those connected, and queued for the others offline. 
+ - Enter Your Message, Select who you want to send it to, and click "Send".
+   The Message will be sent instantly to all those connected, and queued for the others offline.
 
-![Retroshare v2.0 History Image Search Window](../img/history/v2_search.png "Retroshare v2.0 History Image Search Window")  
+![Retroshare v2.0 History Image Search Window](../img/history/v2_search.png "Retroshare v2.0 History Image Search Window")
 
-####v0.2 Message Window
+#### v0.2 Message Window
 
  - The Window displays a list of received massages.
  - It allows you to Send/Reply or Delete Messages via the buttons on 
    the left-hand side.
  - Recommendations can be downloaded by selecting the message, and then 
    pressing the "Download" Button.
- - You Can Also Open the "Universal Chatter Box" from here. 
+ - You Can Also Open the "Universal Chatter Box" from here.
  
-![Retroshare v2.0 History Image Message Window](../img/history/v2_message.png "Retroshare v2.0 History Image message Window")  
+![Retroshare v2.0 History Image Message Window](../img/history/v2_message.png "Retroshare v2.0 History Image message Window")
 
-####v0.2 File Transfer
+#### v0.2 File Transfer
 This Tab allows you to monitor the current file transfers.
 
  - Select a Transfer from the Top Window, and the details appear in the Lower Window.
@@ -227,13 +229,13 @@ This Tab allows you to monitor the current file transfers.
 This Tab also allows you to control the Maximum Transfer Rates, 
 using the scroll numbers on the left hand side:
 
- - Set the Maximum Individual Rate for Uploads and Downloads using the the top field. 
+ - Set the Maximum Individual Rate for Uploads and Downloads using the the top field.
  - Set the Total Maximum Data Rate using the scroll number below.
- - The "Maximum Connections", or bottom field, is only eye-candy. 
+ - The "Maximum Connections", or bottom field, is only eye-candy.
  
-![Retroshare v2.0 History Image File Transfer Window](../img/history/v2_transfer.png "Retroshare v2.0 History Image File Transfer Window")  
+![Retroshare v2.0 History Image File Transfer Window](../img/history/v2_transfer.png "Retroshare v2.0 History Image File Transfer Window")
 
-####v0.2 Configuration
+#### v0.2 Configuration
 Using this panel you can configure RetroShare's ports, and its shared directories:
 
  - If you are directly connected to the Internet (via broadband) 
@@ -241,45 +243,45 @@ Using this panel you can configure RetroShare's ports, and its shared directorie
    Box near the Top is Ticked.
  - If you are behind a Firewall, and have opened a port through it. 
    Then you should set your external address: Tick the "Firewalled", and 
-   the "Forwarded" Boxes. Enter your external address, in the field. 
+   the "Forwarded" Boxes. Enter your external address, in the field.
    Then press Change.
  - If you are behind a firewall, and cannot open an external port, Tick 
    the "Firewalled" Box. You can only make outgoing Connections.
- - Add shared directories through the lower panel. 
+ - Add shared directories through the lower panel.
 
-![Retroshare v2.0 History Image Config](../img/history/v2_config.png "Retroshare v2.0 History Image Config")  
+![Retroshare v2.0 History Image Config](../img/history/v2_config.png "Retroshare v2.0 History Image Config")
 
-###12th August 2006
- - Ported the UDP Transport layer to Windows. Damn Microsoft make it hard to get the most basic of functionality to work! 
+### 12th August 2006
+ - Ported the UDP Transport layer to Windows. Damn Microsoft make it hard to get the most basic of functionality to work!
 
-###15th July 2006
- - Finally completed the XPGP web of trust authentication system. Successfully tested it using a modified SSL3/TLS1 connection protocol. 
+### 15th July 2006
+ - Finally completed the XPGP web of trust authentication system. Successfully tested it using a modified SSL3/TLS1 connection protocol.
 
-###21st April 2006
- - First successful NAT hole punching using the new UDP communication layer. 
+### 21st April 2006
+ - First successful NAT hole punching using the new UDP communication layer.
 
-###15st April 2006
- - Implementation of a SSL BIO layer is completed, and the first successful tests of a SSL connection over the UDP transport layer have been run! 
+### 15st April 2006
+ - Implementation of a SSL BIO layer is completed, and the first successful tests of a SSL connection over the UDP transport layer have been run!
 
-###06th April 2006
- - Completed initial (Linux Only) implementation of UDP transport layer, 
+### 06th April 2006
+ - Completed initial (Linux Only) implementation of UDP transport layer,
 
-###27th Feb 2006
- - Basic proxy system implemented to get around firewalls. 
+### 27th Feb 2006
+ - Basic proxy system implemented to get around firewalls.
 
-###25th Feb 2006
- - Source Code for v0.1.0 is available under LGPL v2 Licence 
+### 25th Feb 2006
+ - Source Code for v0.1.0 is available under LGPL v2 Licence
 
-###Jan 2006
+### Jan 2006
 The first Windows release of Retroshare has been placed on the web. This version provides:
 
  - Standard SSL Hierarchical authentication scheme.
  - SSL over TCP connections between peers.
  - AutoDiscovery system to introduce you to others.
  - Shared directories, searchable by your peers.
- - Generic file downloading. 
- 
-###06th January 2006 
+ - Generic file downloading.
+
+### 06th January 2006
 What is RetroShare? and Why another Peer to Peer Network?
 
 RetroShare is the next generation sharing network, which provides:
@@ -314,6 +316,6 @@ secure sharing.
 I have put months of work into transforming RetroShare from a random idea, into a working system. It is now time to share this program, and the ideas behind, with the world...
 
 Dr Bob, 06/01/06
- 
- 
-![Retroshare Pictorial Overview](../img/history/both_p2p.png "Retroshare Pictorial Overview")  
+
+
+![Retroshare Pictorial Overview](../img/history/both_p2p.png "Retroshare Pictorial Overview")
