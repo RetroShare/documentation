@@ -319,3 +319,6 @@ Dr Bob, 06/01/06
 
 
 ![Retroshare Pictorial Overview](../img/history/both_p2p.png "Retroshare Pictorial Overview")
+
+## 2004
+Oldest year reported in RetroShare source code copyright header by drbob
