@@ -125,3 +125,15 @@ class pqiloopback: public PQInterface
 };
 
 ```
+
+
+### Avoid possible conflicting identifiers
+
+The problems we experienced compiling for Windows due to the usage of apparently
+innocent identifiers such as `lst1`, `lst2`, `grp1`, `grp2` suggest we should be
+expecially carefull in chosing identifiers names, so avoid to use names that may
+easly create conficts with system and library macros such as `win32`, `unix`
+etc.
+
+In this web-page you can find a list of names not usable on Windows
+https://doc.pcsoft.fr/en-US/?6510001 .
