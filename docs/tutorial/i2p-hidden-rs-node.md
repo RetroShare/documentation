@@ -19,11 +19,12 @@ run a hidden service from behind your firewall.
 
 ##Hidden Service Setup  
 ###I2P Installation  
-This Guide requires to have Tor already installed on your System.  
+This Guide requires to have I2P already installed on your System.  
 If not, please refer to the offical [I2P Documentation](https://geti2p.net/en/docs) 
 on how to install I2P.  
 
-Download I2P for various operating systems: [I2P Download](https://geti2p.net/en/download)  
+Download I2P for various operating systems: [I2P Download](https://geti2p.net/en/download)
+or [I2PD Installing](https://i2pd.readthedocs.io/en/latest/user-guide/install/). This second option is a non official / community edition.
 
 ###Outgoing I2P Proxy  
 For this we have to create a “Local tunnel” in the I2P Router Console. If 
