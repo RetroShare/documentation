@@ -13,9 +13,9 @@
        libspeex-dev libspeexdsp-dev libxslt1-dev libcurl4-openssl-dev \
        libopencv-dev tcl8.5 libmicrohttpd-dev
 ```
-In Ubuntu 18.04 there's no libqtmultimediakit1 and qtmobility-dev packages available. In order to compile in Ubuntu 18.04 you need to install these extra/alternative packages:
+In Ubuntu 18.04 and Debian 9 there's no libqtmultimediakit1 and qtmobility-dev packages available. In order to compile in Ubuntu 18.04 you need to install these extra/alternative packages:
 ```bash
-   sudo apt-get install libqt5x11extras5-dev qtmultimedia5-dev qttools5-devs
+   sudo apt-get install libqt5x11extras5-dev qtmultimedia5-dev qttools5-dev
 ```
 
 #### openSUSE
