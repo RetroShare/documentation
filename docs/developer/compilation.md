@@ -11,7 +11,7 @@
        libqt4-dev libssl-dev libxss-dev libgnome-keyring-dev libbz2-dev \
        libqt4-opengl-dev libqtmultimediakit1 qtmobility-dev libsqlcipher-dev \
        libspeex-dev libspeexdsp-dev libxslt1-dev libcurl4-openssl-dev \
-       libopencv-dev tcl8.5 libmicrohttpd-dev
+       libopencv-dev tcl8.5 libmicrohttpd-dev build-essential cmake 
 ```
 In Ubuntu 18.04 and Debian 9 there's no libqtmultimediakit1 and qtmobility-dev packages available. In order to compile in Ubuntu 18.04 you need to install these extra/alternative packages:
 ```bash
