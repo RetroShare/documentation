@@ -1,7 +1,22 @@
 # History of RetroShare
 
+## 2019
+### 11th February 2019
+ - release of [v0.6.5](https://github.com/RetroShare/RetroShare/releases/tag/0.6.5)
+
+## 2018
+### 14th March 2018
+ - release of [v0.6.4](https://github.com/RetroShare/RetroShare/releases/tag/v0.6.4)
+
+## 2017
+### 20th August 2017
+ - release of [v0.6.3](https://github.com/RetroShare/RetroShare/releases/tag/0.6.3)
+
+### 12th March 2017
+ - release of [v0.6.2](https://github.com/RetroShare/RetroShare/releases/tag/v0.6.2)
+
 ## 2016
-### 31 August 2016
+### 31st August 2016
  - release of [v0.6.1](https://github.com/RetroShare/RetroShare/releases/tag/0.6.1)
 
 ### 5th February 2016
