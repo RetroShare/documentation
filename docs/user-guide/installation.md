@@ -1,1 +1,1 @@
-See http://retroshare.net/downloads.html
+See https://retroshare.cc/downloads.html
