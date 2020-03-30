@@ -5,7 +5,7 @@ The following plugins are generally part of downloaded/installed packages and ar
 
 VOIP provides video and voice communications with other friends who have the facilities. 
 
-To compile and use (for Gnu/Linux):
+To compile and use (for GNU/Linux):
 
     cd [your retroshare source folder]/plugins/VOIP
     qmake && make clean && make
@@ -17,9 +17,9 @@ Restart RetroShare, enabling the plugin when asked. You can change settings in O
 
 FeedReader acts as an RSS feed collector for RetroShare, gathering selected news feeds into RetroShare.
 
-To compile and use (for Gnu/Linux):
+To compile and use (for GNU/Linux):
 
-    cd [your retroshare source folder]/plugins/VOIP
+    cd [your retroshare source folder]/plugins/FeedReader
     qmake && make clean && make
     cp lib*.so ~/.retroshare/extensions6
 
