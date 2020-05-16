@@ -32,6 +32,7 @@ If not, please refer to the offical Tor Documentation on how to install Tor.
  - [Tor on Debian/Ubuntu](https://www.torproject.org/docs/debian.html.en)  
  - [Tor on RPM based RHEL/CentOS/Fedora](https://www.torproject.org/docs/rpms.html.en)  
  - [Tor on MacOS](https://www.torproject.org/docs/tor-doc-osx.html.en)  
+ - [Tor on Windows (Install 'Windows Expert Bundle')](https://www.torproject.org/download/tor/)  
 
 ###Outgoing Tor Proxy
 By default Tor will create a SOCKS Proxy on localhost for outgoing connections. 
