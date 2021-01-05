@@ -3,7 +3,7 @@ site_url: https://retroshare.readthedocs.io
 site_description: RetroShare User Guide
 site_author: RetroShare Community
 
-repo_url: https://github.com/retroshare/documentation.git
+repo_url: https://github.com/retroshare/documentation
 
 site_favicon: favicon.ico
 
