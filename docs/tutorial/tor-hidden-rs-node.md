@@ -8,7 +8,8 @@ To use SOCKS-Proxy directly (for RetroShare, instant
 messaging, Jabber, IRC, etc), you can point your application directly at 
 Tor (localhost port 9050, or port 9150 for Tor Browser), but see [this 
 FAQ entry](https://www.torproject.org/docs/faq.html.en#TBBSocksPort) 
-for why this may be dangerous. 
+for why this may be dangerous. You may want to Run Tor only and not the 
+"Tor Browser to do this on Windows (Install 'Windows Expert Bundle')](https://www.torproject.org/download/tor/)  
 
 RetroShare can be run behind a [Tor Hidden Service](https://www.torproject.org/docs/hidden-services.html.en) 
 for incoming connections. The outgoing connections are sent through a 
@@ -24,6 +25,12 @@ That is, you can offer a web server, SSH server, etc., without revealing your IP
 address to its users. In fact, because you don't use any public 
 address, you can run a hidden service from behind your firewall.  
 
+##RetroShare now bundled with Tor
+Since Version 0.6.5 RetroShare has the Tor Software Bundeled within it.
+The easiest option for running a single RetroShare instance using Tor is to select 
+the 'Hidden Node (over Tor)' from the 'Node Type' dropdown menu during Profile Setup
+![select hidden node over tor](../img/tutorial/tor/rs_tor_setup_screen.png "Select Hidden Node over Tor")  
+
 ##Hidden Service Setup  
 ###Tor Installation
 This Guide requires to have Tor already installed on your System.  
@@ -32,6 +39,7 @@ If not, please refer to the offical Tor Documentation on how to install Tor.
  - [Tor on Debian/Ubuntu](https://www.torproject.org/docs/debian.html.en)  
  - [Tor on RPM based RHEL/CentOS/Fedora](https://www.torproject.org/docs/rpms.html.en)  
  - [Tor on MacOS](https://www.torproject.org/docs/tor-doc-osx.html.en)  
+ - [Tor on Windows (Install 'Windows Expert Bundle')](https://www.torproject.org/download/tor/)  
 
 ###Outgoing Tor Proxy
 By default Tor will create a SOCKS Proxy on localhost for outgoing connections. 
