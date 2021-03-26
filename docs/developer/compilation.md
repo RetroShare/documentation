@@ -209,9 +209,9 @@ Install Qt via: [Qt Download](http://www.qt.io/download/)
 Use default options.  
 Add to the PATH environment variable with this temporary solution.  
 
-       export PATH=/users/$USER/Qt/5.5/clang_64/bin:$PATH
+       export PATH=$HOME/Qt/5.5/clang_64/bin:$PATH
 
-Depends on wich version of Qt you use.
+Depends on which version of Qt you use.
 
 ###MacPort Installation
 
@@ -221,14 +221,14 @@ Start XCode to get it updated and to able C compiler to create executables.
 
 ###Install libraries  
 
-       $sudo port -v selfupdate
-       $sudo port install openssl
-       $sudo port install miniupnpc
+       $ sudo port -v selfupdate
+       $ sudo port install openssl
+       $ sudo port install miniupnpc
        
 For VOIP Plugin: 
 
-       $sudo port install speex-devel
-       $sudo port install opencv
+       $ sudo port install speex-devel
+       $ sudo port install opencv
 
 Get Your OSX SDK if missing: [MacOSX-SDKs](https://github.com/phracker/MacOSX-SDKs)  
 
@@ -236,7 +236,7 @@ Get Your OSX SDK if missing: [MacOSX-SDKs](https://github.com/phracker/MacOSX-SD
 
 In QtCreator Option Git add its path:  
 
-       C:\Program Files\Git\bin
+       /usr/local/bin
        
 and select "Pull" with "Rebase"
 
@@ -254,7 +254,7 @@ NOTE, might be necessary to *chmod 000 /usr/local/ssl* temporarily during *./con
 homebrew uses newer, non-stock ssl dependencies found there. configure might get confused.
 
 ####libMicroHTTPD
-The one with port don't have good support.
+The port doesn't have good support.
 
        cd <your development directory>
        wget http://ftpmirror.gnu.org/libmicrohttpd/libmicrohttpd-0.9.46.tar.gz
@@ -270,4 +270,4 @@ You can now compile RS into Qt Creator or with terminal
        cd retroshare
        qmake; make
 
-You can find compiled application on *./retroshare/retroshare-gui/src/RetroShare06.app*
+You can find the compiled application at *./retroshare/retroshare-gui/src/RetroShare06.app*
